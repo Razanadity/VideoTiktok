@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-High-Performance TikTok Video Rendering Engine for 104 Animals.
+High-Performance TikTok Video Rendering Engine for 104 Talking Animals.
 Renders true vertical 9:16 MP4 videos (720x1280 at 30 fps, H.264 / AAC).
 Features:
+- Animated Talking Animal: mouth and jaw opening/closing with speech rhythm
+- Natural eye blinking and head breathing motion
+- Animated speech sound rings radiating from the talking mouth
 - Ken Burns smooth cinematic zoom & pan
 - Animated sound waveform visualizer
 - Dynamic TikTok subtitle overlays with glowing active text
@@ -18,6 +21,7 @@ import json
 import subprocess
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+from talking_engine import apply_talking_animal_motion
 
 WIDTH = 720
 HEIGHT = 1280
@@ -65,9 +69,7 @@ def wrap_text(text, max_chars_per_line=30):
 
 def get_audio_duration(audio_file):
     try:
-        cmd = [
-            FFMPEG_BIN, '-i', audio_file
-        ]
+        cmd = [FFMPEG_BIN, '-i', audio_file]
         res = subprocess.run(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
         for line in res.stderr.splitlines():
             if "Duration:" in line:
@@ -80,7 +82,7 @@ def get_audio_duration(audio_file):
 
 def render_animal_video(animal, output_mp4, duration_limit=None):
     """
-    Renders a complete vertical 9:16 TikTok video for the given animal.
+    Renders a complete vertical 9:16 TikTok video for the given TALKING animal.
     Duration is strictly under 1 minute.
     """
     os.makedirs(os.path.dirname(output_mp4), exist_ok=True)
@@ -146,7 +148,7 @@ def render_animal_video(animal, output_mp4, duration_limit=None):
     h_draw.text((WIDTH // 2, 175), tag_text[:50], fill=(240, 240, 240, 240), font=font_tag, anchor="mm")
 
     # Category Pill
-    cat_text = f"📍 {animal.get('category', '')} • ⏱️ {int(duration)}s"
+    cat_text = f"📍 {animal.get('category', '')} • 🗣️ Animal Parlant • ⏱️ {int(duration)}s"
     h_draw.text((WIDTH // 2, 220), cat_text, fill=(200, 200, 200, 200), font=font_tag, anchor="mm")
 
     # Setup FFmpeg Subprocess Pipe
@@ -180,7 +182,7 @@ def render_animal_video(animal, output_mp4, duration_limit=None):
     wave_y_base = HEIGHT - 90
 
     # Oversized base for smooth Ken Burns zoom
-    scale_factor = 1.12
+    scale_factor = 1.10
     zoomed_w = int(WIDTH * scale_factor)
     zoomed_h = int(HEIGHT * scale_factor)
     oversized_base = base_img.resize((zoomed_w, zoomed_h), Image.Resampling.BILINEAR)
@@ -193,13 +195,15 @@ def render_animal_video(animal, output_mp4, duration_limit=None):
         progress = min(current_time / duration, 1.0)
 
         # Ken Burns subtle zoom and pan calculation
-        zoom_t = 0.5 - 0.5 * math.cos(progress * math.pi)
-        crop_x = int((zoomed_w - WIDTH) * (0.5 + 0.3 * math.sin(current_time * 0.4)))
-        crop_y = int((zoomed_h - HEIGHT) * (0.5 + 0.3 * math.cos(current_time * 0.3)))
+        crop_x = int((zoomed_w - WIDTH) * (0.5 + 0.25 * math.sin(current_time * 0.35)))
+        crop_y = int((zoomed_h - HEIGHT) * (0.5 + 0.25 * math.cos(current_time * 0.25)))
         crop_x = max(0, min(crop_x, zoomed_w - WIDTH))
         crop_y = max(0, min(crop_y, zoomed_h - HEIGHT))
 
         frame_img = oversized_base.crop((crop_x, crop_y, crop_x + WIDTH, crop_y + HEIGHT))
+
+        # ANIMATED TALKING ANIMAL MOUTH, JAW, BLINK & RESONANCE RINGS
+        frame_img = apply_talking_animal_motion(frame_img, current_time, captions, duration, c_primary)
 
         # Dynamic overlay for subtitle, visualizer, and progress bar
         frame_overlay = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))
@@ -256,28 +260,9 @@ def render_animal_video(animal, output_mp4, duration_limit=None):
     process.wait()
     return output_mp4
 
-def render_batch(animal_ids=None, count=10):
+if __name__ == "__main__":
     with open("animals_dataset.json", "r", encoding="utf-8") as f:
         animals = json.load(f)
-    
-    selected = []
-    if animal_ids:
-        selected = [a for a in animals if a['id'] in animal_ids]
-    else:
-        selected = animals[:count]
-
-    print(f"Rendering batch of {len(selected)} TikTok videos...")
-    for idx, a in enumerate(selected):
-        out_path = f"videos/{a['id']}.mp4"
-        print(f"[{idx+1}/{len(selected)}] Rendering {a['name']} -> {out_path}")
-        render_animal_video(a, out_path)
-    print("Batch rendering completed successfully!")
-
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1 and sys.argv[1] == "--all":
-        render_batch(count=104)
-    elif len(sys.argv) > 1 and sys.argv[1] == "--sample":
-        render_batch(count=15)
-    else:
-        render_batch(count=8)
+    print("Testing talking animal render for lion...")
+    render_animal_video(animals[0], "videos/lion.mp4")
+    print("Talking lion video rendered successfully!")
