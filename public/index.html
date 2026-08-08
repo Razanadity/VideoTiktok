@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnimauxTikTok — Histoires Parlées de 104 Animaux (< 1 min)</title>
+  <title>AnimauxTikTok — 104 Vidéos d'Animaux Sauvages Parlants (< 1 min)</title>
   <meta name="description" content="104 vidéos d'animaux parlant à la première personne de leur histoire, format TikTok vertical 9:16, durée inférieure à 1 minute, sans watermark.">
   <link rel="stylesheet" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,10 @@
       <!-- Navigation Tabs -->
       <div class="nav-tabs">
         <button class="tab-btn active" data-tab="feed">
-          <span class="tab-icon">📱</span> Feed TikTok
+          <span class="tab-icon">📱</span> Lecteur TikTok
+        </button>
+        <button class="tab-btn" data-tab="gallery">
+          <span class="tab-icon">🎬</span> Galerie Vidéos MP4 (<span id="readyCountBadge">40</span>)
         </button>
         <button class="tab-btn" data-tab="encyclopedia">
           <span class="tab-icon">📚</span> Encyclopédie (104)
@@ -36,14 +39,14 @@
         </button>
       </div>
 
-      <!-- Search & Quick Stats -->
+      <!-- Search & Clean Badge -->
       <div class="header-actions">
         <div class="search-box">
           <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" placeholder="Rechercher un animal (lion, dauphin, loup...)" />
+          <input type="text" id="searchInput" placeholder="Rechercher (lion, loup, dauphin...)" />
           <button id="clearSearch" class="clear-btn" style="display:none;">✕</button>
         </div>
-        <div class="clean-badge" title="Toutes les vidéos sont 100% clean et sans watermark">
+        <div class="clean-badge" title="Toutes les vidéos sont 100% clean et sans logo Arena">
           <span class="badge-dot"></span> 100% Sans Logo
         </div>
       </div>
@@ -77,7 +80,7 @@
         <!-- Left Side: Queue / Quick List for Desktop -->
         <aside class="feed-sidebar">
           <div class="sidebar-header">
-            <h3>📋 Sommaire des Vidéos</h3>
+            <h3>📋 Liste des Animaux</h3>
             <span class="badge-count" id="sidebarCount">104</span>
           </div>
           <div class="sidebar-list" id="sidebarList">
@@ -91,14 +94,14 @@
             
             <!-- Video / Canvas / Visual Layer -->
             <div class="media-container" id="mediaContainer">
-              <video id="mainVideo" class="video-player" playsinline preload="auto" loop></video>
-              <img id="fallbackImg" class="fallback-poster" alt="Animal Poster" />
+              <!-- Real Video Player -->
+              <video id="mainVideo" class="video-player" playsinline controls loop preload="auto"></video>
+              
+              <!-- Fallback poster only if video is pending rendering -->
+              <img id="fallbackImg" class="fallback-poster" alt="Animal Poster" style="display:none;" />
+              
               <canvas id="visualizerCanvas" class="visualizer-canvas"></canvas>
               
-              <!-- Subtle top and bottom dark gradients for readability -->
-              <div class="gradient-top"></div>
-              <div class="gradient-bottom"></div>
-
               <!-- Top Floating Badge Info -->
               <div class="video-header-badge">
                 <div class="badge-pill">
@@ -116,18 +119,8 @@
               <!-- Dynamic TikTok Subtitle Overlay Container -->
               <div class="subtitles-container">
                 <div class="subtitles-box" id="subtitlesBox">
-                  <p class="subtitle-text" id="subtitleText">Appuyez sur Lecture pour écouter l'histoire...</p>
+                  <p class="subtitle-text" id="subtitleText">Je suis le lion, seigneur incontesté de la savane africaine...</p>
                 </div>
-              </div>
-
-              <!-- Bottom Progress Bar -->
-              <div class="video-progress-container" id="progressContainer">
-                <div class="video-progress-fill" id="progressFill"></div>
-              </div>
-
-              <!-- Center Big Play/Pause Button Indicator -->
-              <div class="play-overlay" id="playOverlay">
-                <div class="play-icon-circle">▶</div>
               </div>
 
               <!-- Voice Speaking Wave Indicator -->
@@ -144,22 +137,12 @@
             <div class="tiktok-action-bar">
               <div class="action-item" id="likeBtn">
                 <button class="action-circle"><span class="action-icon">❤️</span></button>
-                <span class="action-count" id="likeCount">1.4k</span>
-              </div>
-
-              <div class="action-item" id="transcriptToggleBtn">
-                <button class="action-circle" title="Lire l'histoire complète"><span class="action-icon">💬</span></button>
-                <span class="action-label">Histoire</span>
+                <span class="action-count" id="likeCount">2.4k</span>
               </div>
 
               <div class="action-item" id="ttsSpeakBtn">
                 <button class="action-circle active" title="Lire à haute voix en Français (Web Speech)"><span class="action-icon">🗣️</span></button>
                 <span class="action-label">Voix FR</span>
-              </div>
-
-              <div class="action-item" id="muteToggleBtn">
-                <button class="action-circle" title="Son Activer/Couper"><span class="action-icon" id="muteIcon">🔊</span></button>
-                <span class="action-label" id="muteLabel">100%</span>
               </div>
 
               <div class="action-item" id="speedToggleBtn">
@@ -244,7 +227,20 @@
       </div>
     </section>
 
-    <!-- 2. ENCYCLOPÉDIE & STUDIO GRID (104 ANIMAUX) -->
+    <!-- 2. GALERIE VIDÉOS MP4 DIRECTE (NOUVEAU) -->
+    <section id="gallerySection" class="tab-content">
+      <div class="encyclopedia-header">
+        <div>
+          <h2>🎬 Galerie des Vidéos MP4 Prêtes à Regarder (<span id="galleryCount">40</span> Vidéos)</h2>
+          <p>Toutes les vidéos sont au format vertical 9:16 TikTok, durent moins de 1 minute et ne contiennent aucun logo Arena.</p>
+        </div>
+      </div>
+      <div class="videos-grid" id="galleryGrid">
+        <!-- Rendered with HTML5 Video Players -->
+      </div>
+    </section>
+
+    <!-- 3. ENCYCLOPÉDIE & STUDIO GRID (104 ANIMAUX) -->
     <section id="encyclopediaSection" class="tab-content">
       <div class="encyclopedia-header">
         <div>
@@ -261,7 +257,7 @@
       </div>
     </section>
 
-    <!-- 3. STUDIO DE GÉNÉRATION EN MASSE & EXPORT -->
+    <!-- 4. STUDIO DE GÉNÉRATION EN MASSE & EXPORT -->
     <section id="generatorSection" class="tab-content">
       <div class="generator-dashboard">
         <div class="dashboard-header">
@@ -281,7 +277,7 @@
           <div class="overview-card">
             <span class="card-icon">🎬</span>
             <div class="card-data">
-              <span class="data-num" id="statReadyVideos">8</span>
+              <span class="data-num" id="statReadyVideos">40</span>
               <span class="data-label">Vidéos MP4 Prêtes</span>
             </div>
           </div>
@@ -298,7 +294,7 @@
             <span class="card-icon">🛡️</span>
             <div class="card-data">
               <span class="data-num">0% Logo</span>
-              <span class="data-label">100% Watermark-Free</span>
+              <span class="data-label">100% Sans Logo Arena</span>
             </div>
           </div>
         </div>
@@ -314,7 +310,7 @@
               <span>⚡</span> Générer Toutes les Vidéos (104)
             </button>
             <button class="btn btn-secondary btn-lg" id="generateSampleBtn">
-              <span>🎯</span> Générer les 15 Premiers
+              <span>🎯</span> Générer les Restantes
             </button>
           </div>
         </div>
@@ -323,12 +319,12 @@
         <div class="queue-status-card">
           <div class="queue-header">
             <h4>📊 Statut de la File d'Attente de Rendu</h4>
-            <span class="queue-badge" id="queueStatusBadge">En attente</span>
+            <span class="queue-badge" id="queueStatusBadge">Prêt</span>
           </div>
           <div class="progress-bar-container">
-            <div class="progress-bar-fill" id="batchProgressFill" style="width: 10%;"></div>
+            <div class="progress-bar-fill" id="batchProgressFill" style="width: 40%;"></div>
           </div>
-          <p class="queue-detail" id="queueDetailText">8 vidéos générées sur 104 prêtes pour le téléchargement immédiat.</p>
+          <p class="queue-detail" id="queueDetailText">40 vidéos générées sur 104 prêtes pour le téléchargement immédiat.</p>
         </div>
 
         <!-- Rendered Videos Table -->
@@ -355,30 +351,6 @@
     </section>
 
   </main>
-
-  <!-- Story Detail Modal -->
-  <div class="modal-backdrop" id="storyModal" style="display:none;">
-    <div class="modal-card">
-      <button class="modal-close" id="modalCloseBtn">✕</button>
-      <div class="modal-header">
-        <span class="modal-emoji" id="modalEmoji">🦁</span>
-        <div>
-          <h3 id="modalTitle">Le Lion d'Afrique</h3>
-          <p id="modalSub">Panthera leo • « Le Roi de la Savane »</p>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div class="modal-tags" id="modalTags"></div>
-        <h4>📜 Histoire & Monologue :</h4>
-        <p class="modal-story" id="modalStory"></p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" id="modalWatchBtn"><span>🎬</span> Regarder dans le Feed</button>
-        <button class="btn btn-secondary" id="modalSpeakBtn"><span>🗣️</span> Écouter</button>
-        <button class="btn btn-outline" id="modalDownloadMp4Btn"><span>📥</span> MP4</button>
-      </div>
-    </div>
-  </div>
 
   <script src="/app.js"></script>
 </body>

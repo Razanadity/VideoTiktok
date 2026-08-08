@@ -2,6 +2,7 @@
  * AnimauxTikTok Studio — Interactive Web App Logic
  * Features:
  * - TikTok Vertical 9:16 Video Player with smooth transitions
+ * - Real Video Gallery with direct HTML5 video playback
  * - Dynamic Synchronized Subtitles with Karaoke highlighting
  * - Native French Spoken Voice Narration (Web Speech API + MP3 Audio)
  * - Canvas Audio Waveform Visualizer
@@ -22,9 +23,7 @@ let visualizerAnimationId = null;
 const mainVideo = document.getElementById('mainVideo');
 const fallbackImg = document.getElementById('fallbackImg');
 const visualizerCanvas = document.getElementById('visualizerCanvas');
-const playOverlay = document.getElementById('playOverlay');
 const subtitleText = document.getElementById('subtitleText');
-const progressFill = document.getElementById('progressFill');
 const speechIndicator = document.getElementById('speechIndicator');
 
 const feedEmoji = document.getElementById('feedEmoji');
@@ -42,6 +41,9 @@ const bioStoryText = document.getElementById('bioStoryText');
 
 const sidebarList = document.getElementById('sidebarList');
 const sidebarCount = document.getElementById('sidebarCount');
+const galleryGrid = document.getElementById('galleryGrid');
+const galleryCount = document.getElementById('galleryCount');
+const readyCountBadge = document.getElementById('readyCountBadge');
 const animalsGrid = document.getElementById('animalsGrid');
 const resultsCount = document.getElementById('resultsCount');
 
@@ -63,7 +65,7 @@ function setupCanvas() {
 
   function renderVisualizer() {
     ctx.clearRect(0, 0, visualizerCanvas.width, visualizerCanvas.height);
-    if (isPlaying || isSpeaking) {
+    if (!mainVideo.paused || isSpeaking) {
       const numBars = 24;
       const barWidth = 8;
       const spacing = 6;
@@ -96,7 +98,13 @@ async function loadAnimals() {
     const res = await fetch('/api/animals');
     ANIMALS = await res.json();
     sidebarCount.textContent = ANIMALS.length;
+    
+    const readyVideos = ANIMALS.filter(a => a.video_status === 'ready');
+    galleryCount.textContent = readyVideos.length;
+    readyCountBadge.textContent = readyVideos.length;
+
     renderSidebar(ANIMALS);
+    renderGallery(ANIMALS);
     renderGrid(ANIMALS);
     renderTable(ANIMALS);
     loadAnimal(0);
@@ -127,7 +135,7 @@ function loadAnimal(index) {
   bioDuration.textContent = `< ${Math.ceil(animal.captions ? animal.captions[animal.captions.length - 1].end + 1 : 28)}s`;
   bioStoryText.textContent = animal.story || '';
 
-  // Update Links
+  // Update Download Links
   const mp4Link = document.getElementById('mp4DownloadLink');
   const srtLink = document.getElementById('downloadSrtBtn').querySelector('a');
   mp4Link.href = animal.video_url || `/videos/${animal.id}.mp4`;
@@ -138,25 +146,22 @@ function loadAnimal(index) {
     el.classList.toggle('active', idx === currentIndex);
   });
 
-  // Media Source Setup
-  fallbackImg.src = animal.image_url || `/images/${animal.id}.png`;
-  fallbackImg.style.display = 'block';
+  // Media Source Setup: ALWAYS load the video first
+  const videoSrc = animal.video_url || `/videos/${animal.id}.mp4`;
+  mainVideo.src = videoSrc;
+  mainVideo.poster = animal.image_url || `/images/${animal.id}.png`;
+  mainVideo.style.display = 'block';
+  fallbackImg.style.display = 'none';
 
-  // Check if video file exists and can be played
-  if (animal.video_status === 'ready' || animal.video_url) {
-    mainVideo.src = animal.video_url || `/videos/${animal.id}.mp4`;
-    mainVideo.load();
-    mainVideo.style.display = 'block';
-  } else {
-    mainVideo.style.display = 'none';
-  }
+  mainVideo.load();
+  mainVideo.play().catch(() => {
+    // Autoplay might require user interaction
+  });
 
-  // Reset Subtitle & Progress
+  // Reset Subtitle
   subtitleText.textContent = animal.captions && animal.captions[0] ? animal.captions[0].text : animal.story.slice(0, 75) + '...';
-  progressFill.style.width = '0%';
 
   // Update Render button status
-  const renderBtn = document.getElementById('renderMp4Btn');
   const renderIcon = document.getElementById('renderIcon');
   const renderLabel = document.getElementById('renderLabel');
   if (animal.video_status === 'ready') {
@@ -177,11 +182,6 @@ mainVideo.addEventListener('timeupdate', () => {
   if (!animal) return;
 
   const curTime = mainVideo.currentTime;
-  const duration = mainVideo.duration || 26.0;
-
-  // Update Progress Bar
-  const pct = (curTime / duration) * 100;
-  progressFill.style.width = `${pct}%`;
 
   // Find active caption
   if (animal.captions) {
@@ -206,7 +206,7 @@ function highlightWords(text, elapsed, capDuration) {
   }).join(' ');
 }
 
-// Native French Spoken Voice Synthesizer (Web Speech API)
+// Native French Spoken Voice Synthesizer
 function speakStory(animal) {
   if (!('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
@@ -216,7 +216,6 @@ function speakStory(animal) {
   utterance.rate = 1.02 * playbackSpeed;
   utterance.pitch = 1.0;
 
-  // Pick French voice if available
   const voices = window.speechSynthesis.getVoices();
   const frVoice = voices.find(v => v.lang.startsWith('fr'));
   if (frVoice) utterance.voice = frVoice;
@@ -248,43 +247,8 @@ function stopSpeech() {
   speechIndicator.style.display = 'none';
 }
 
-// Play / Pause Toggle
-function togglePlay() {
-  const animal = ANIMALS[currentIndex];
-  if (mainVideo.style.display !== 'none' && mainVideo.src) {
-    if (mainVideo.paused) {
-      mainVideo.play();
-      isPlaying = true;
-      playOverlay.style.opacity = '0';
-    } else {
-      mainVideo.pause();
-      isPlaying = false;
-      playOverlay.style.opacity = '1';
-    }
-  } else {
-    // Fallback: speak story and animate poster
-    if (!isSpeaking) {
-      speakStory(animal);
-      isPlaying = true;
-      playOverlay.style.opacity = '0';
-    } else {
-      stopSpeech();
-      isPlaying = false;
-      playOverlay.style.opacity = '1';
-    }
-  }
-}
-
 // Setup Player Controls & Action Bar
 function setupControls() {
-  const playOverlay = document.getElementById('playOverlay');
-  playOverlay.addEventListener('click', togglePlay);
-  document.getElementById('mediaContainer').addEventListener('click', (e) => {
-    if (!e.target.closest('.tiktok-action-bar') && !e.target.closest('.video-progress-container')) {
-      togglePlay();
-    }
-  });
-
   // Up / Down Buttons
   document.getElementById('nextVideoBtn').addEventListener('click', () => {
     if (currentIndex < ANIMALS.length - 1) loadAnimal(currentIndex + 1);
@@ -300,32 +264,7 @@ function setupControls() {
       if (currentIndex < ANIMALS.length - 1) loadAnimal(currentIndex + 1);
     } else if (e.key === 'ArrowUp' || e.key === 'k') {
       if (currentIndex > 0) loadAnimal(currentIndex - 1);
-    } else if (e.key === ' ') {
-      e.preventDefault();
-      togglePlay();
     }
-  });
-
-  // Wheel Snap Navigation
-  let wheelTimeout;
-  document.getElementById('mediaContainer').addEventListener('wheel', (e) => {
-    clearTimeout(wheelTimeout);
-    wheelTimeout = setTimeout(() => {
-      if (e.deltaY > 30 && currentIndex < ANIMALS.length - 1) {
-        loadAnimal(currentIndex + 1);
-      } else if (e.deltaY < -30 && currentIndex > 0) {
-        loadAnimal(currentIndex - 1);
-      }
-    }, 80);
-  });
-
-  // Mute / Unmute
-  const muteBtn = document.getElementById('muteToggleBtn');
-  muteBtn.addEventListener('click', () => {
-    isMuted = !isMuted;
-    mainVideo.muted = isMuted;
-    document.getElementById('muteIcon').textContent = isMuted ? '🔇' : '🔊';
-    document.getElementById('muteLabel').textContent = isMuted ? 'Muet' : '100%';
   });
 
   // Speed Selector
@@ -353,7 +292,7 @@ function setupControls() {
     const circle = likeBtn.querySelector('.action-circle');
     circle.classList.toggle('active');
     const count = document.getElementById('likeCount');
-    count.textContent = '1.5k';
+    count.textContent = '2.5k';
   });
 
   // Render on-demand button
@@ -364,8 +303,7 @@ function setupControls() {
     document.getElementById('renderLabel').textContent = 'Rendu...';
 
     try {
-      const res = await fetch(`/api/generate/${animal.id}`, { method: 'POST' });
-      const data = await res.json();
+      await fetch(`/api/generate/${animal.id}`, { method: 'POST' });
       setTimeout(async () => {
         await loadAnimals();
       }, 3000);
@@ -393,7 +331,7 @@ function setupControls() {
   if (batchBtn) {
     batchBtn.addEventListener('click', async () => {
       batchBtn.disabled = true;
-      batchBtn.innerHTML = '<span>⏳</span> Lancement du rendu en masse...';
+      batchBtn.innerHTML = '<span>⏳</span> Rendu en cours...';
       try {
         await fetch('/api/generate-all', { method: 'POST' });
         document.getElementById('queueStatusBadge').textContent = 'En cours de rendu';
@@ -415,10 +353,13 @@ async function pollBatchStatus() {
       document.getElementById('batchProgressFill').style.width = `${pct}%`;
       document.getElementById('queueDetailText').textContent = `${data.ready} vidéos générées sur ${data.total} prêtes pour le téléchargement immédiat.`;
       document.getElementById('statReadyVideos').textContent = data.ready;
+      galleryCount.textContent = data.ready;
+      readyCountBadge.textContent = data.ready;
 
       if (data.queue === 0) {
         clearInterval(interval);
         document.getElementById('queueStatusBadge').textContent = 'Terminé ✅';
+        loadAnimals();
       }
     } catch (e) {
       clearInterval(interval);
@@ -496,6 +437,7 @@ function filterAnimals(category, query) {
   resultsCount.textContent = `${filtered.length} animaux affichés`;
   sidebarCount.textContent = filtered.length;
   renderSidebar(filtered);
+  renderGallery(filtered);
   renderGrid(filtered);
   renderTable(filtered);
 }
@@ -506,7 +448,40 @@ function renderSidebar(list) {
     <div class="sidebar-item ${idx === currentIndex ? 'active' : ''}" onclick="selectAnimalById('${a.id}')">
       <span class="sidebar-emoji">${a.emoji || '🐾'}</span>
       <span class="sidebar-title">${a.name}</span>
-      <span class="sidebar-ready">${a.video_status === 'ready' ? '🎬' : '📝'}</span>
+      <span class="sidebar-ready">${a.video_status === 'ready' ? '🎬' : '⚡'}</span>
+    </div>
+  `).join('');
+}
+
+// Render Videos Gallery Tab (Direct HTML5 Videos)
+function renderGallery(list) {
+  const readyList = list.filter(a => a.video_status === 'ready' || a.video_url);
+  galleryGrid.innerHTML = readyList.map(a => `
+    <div class="video-card-player">
+      <div class="video-card-media">
+        <video src="${a.video_url || '/videos/' + a.id + '.mp4'}" controls playsinline preload="metadata" poster="${a.image_url || '/images/' + a.id + '.png'}"></video>
+      </div>
+      <div class="video-card-info">
+        <div class="video-card-header">
+          <span style="font-size:24px;">${a.emoji || '🐾'}</span>
+          <div>
+            <h4 class="video-card-title">${a.name}</h4>
+            <span class="video-card-sub">${a.category} • « ${a.title} »</span>
+          </div>
+        </div>
+        <p class="video-card-story">${a.story}</p>
+        <div class="video-card-actions">
+          <button class="btn btn-primary" onclick="openFeedWithAnimal('${a.id}')">
+            <span>📱</span> Plein Écran Feed
+          </button>
+          <a class="btn btn-secondary" href="${a.video_url || '/videos/' + a.id + '.mp4'}" download>
+            <span>📥</span> MP4
+          </a>
+          <a class="btn btn-outline" href="/api/srt/${a.id}.srt" download>
+            <span>📝</span> SRT
+          </a>
+        </div>
+      </div>
     </div>
   `).join('');
 }
@@ -551,7 +526,7 @@ function renderTable(list) {
       <td>&lt; 30s</td>
       <td>
         <span class="status-tag ${a.video_status === 'ready' ? 'status-ready' : 'status-pending'}">
-          ${a.video_status === 'ready' ? '✅ MP4 Prêt' : '⚡ En attente'}
+          ${a.video_status === 'ready' ? '✅ MP4 Prêt' : '⚡ À générer'}
         </span>
       </td>
       <td>
@@ -582,7 +557,6 @@ window.openFeedWithAnimal = function(id) {
     document.getElementById('feedSection').classList.add('active');
     loadAnimal(index);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    togglePlay();
   }
 };
 
