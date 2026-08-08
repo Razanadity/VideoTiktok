@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimauxTikTok — Histoires Parlées de 104 Animaux (< 1 min)</title>
+  <meta name="description" content="104 vidéos d'animaux parlant à la première personne de leur histoire, format TikTok vertical 9:16, durée inférieure à 1 minute, sans watermark.">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+
+  <!-- Header Navigation -->
+  <header class="studio-header">
+    <div class="header-inner">
+      <div class="logo-group">
+        <span class="logo-icon">🐾</span>
+        <div>
+          <h1 class="logo-title">AnimauxTikTok Studio</h1>
+          <p class="logo-sub">104 Animaux Parlants & Histoires Sauvages • &lt; 1 Minute • Format Vertical 9:16</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="nav-tabs">
+        <button class="tab-btn active" data-tab="feed">
+          <span class="tab-icon">📱</span> Feed TikTok
+        </button>
+        <button class="tab-btn" data-tab="encyclopedia">
+          <span class="tab-icon">📚</span> Encyclopédie (104)
+        </button>
+        <button class="tab-btn" data-tab="generator">
+          <span class="tab-icon">⚡</span> Studio Export MP4
+        </button>
+      </div>
+
+      <!-- Search & Quick Stats -->
+      <div class="header-actions">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="Rechercher un animal (lion, dauphin, loup...)" />
+          <button id="clearSearch" class="clear-btn" style="display:none;">✕</button>
+        </div>
+        <div class="clean-badge" title="Toutes les vidéos sont 100% clean et sans watermark">
+          <span class="badge-dot"></span> 100% Sans Logo
+        </div>
+      </div>
+    </div>
+
+    <!-- Category Filter Bar -->
+    <div class="category-scroll">
+      <div class="category-chips" id="categoryChips">
+        <button class="chip active" data-category="all">🌟 Tous (104)</button>
+        <button class="chip" data-category="Savane & Félins">🦁 Savane & Félins (12)</button>
+        <button class="chip" data-category="Océans & Mers">🐬 Océans & Mers (14)</button>
+        <button class="chip" data-category="Oiseaux & Ciel">🦅 Oiseaux & Ciel (12)</button>
+        <button class="chip" data-category="Forêts & Bois">🐺 Forêts & Bois (14)</button>
+        <button class="chip" data-category="Grands Mammifères">🐘 Grands Mammifères (10)</button>
+        <button class="chip" data-category="Jungle & Primates">🐒 Jungle & Primates (10)</button>
+        <button class="chip" data-category="Arctique & Glaces">🐻‍❄️ Arctique & Glaces (8)</button>
+        <button class="chip" data-category="Australie & Îles">🦘 Australie & Îles (8)</button>
+        <button class="chip" data-category="Déserts & Aride">🐫 Déserts & Aride (8)</button>
+        <button class="chip" data-category="Compagnons & Ferme">🐕 Compagnons & Ferme (8)</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- 1. FEED TIKTOK / REELS VERTICAL -->
+    <section id="feedSection" class="tab-content active">
+      <div class="feed-layout">
+        
+        <!-- Left Side: Queue / Quick List for Desktop -->
+        <aside class="feed-sidebar">
+          <div class="sidebar-header">
+            <h3>📋 Sommaire des Vidéos</h3>
+            <span class="badge-count" id="sidebarCount">104</span>
+          </div>
+          <div class="sidebar-list" id="sidebarList">
+            <!-- Populated via JS -->
+          </div>
+        </aside>
+
+        <!-- Center: Vertical TikTok Player Viewport -->
+        <div class="phone-wrapper">
+          <div class="phone-frame">
+            
+            <!-- Video / Canvas / Visual Layer -->
+            <div class="media-container" id="mediaContainer">
+              <video id="mainVideo" class="video-player" playsinline preload="auto" loop></video>
+              <img id="fallbackImg" class="fallback-poster" alt="Animal Poster" />
+              <canvas id="visualizerCanvas" class="visualizer-canvas"></canvas>
+              
+              <!-- Subtle top and bottom dark gradients for readability -->
+              <div class="gradient-top"></div>
+              <div class="gradient-bottom"></div>
+
+              <!-- Top Floating Badge Info -->
+              <div class="video-header-badge">
+                <div class="badge-pill">
+                  <span class="badge-emoji" id="feedEmoji">🦁</span>
+                  <div class="badge-text">
+                    <span class="badge-title" id="feedTitle">LE LION D'AFRIQUE</span>
+                    <span class="badge-latin" id="feedLatin">Panthera leo • Roi de la Savane</span>
+                  </div>
+                </div>
+                <div class="superpower-pill" id="feedSuperpower">
+                  ✨ Un rugissement audible à 8 kilomètres
+                </div>
+              </div>
+
+              <!-- Dynamic TikTok Subtitle Overlay Container -->
+              <div class="subtitles-container">
+                <div class="subtitles-box" id="subtitlesBox">
+                  <p class="subtitle-text" id="subtitleText">Appuyez sur Lecture pour écouter l'histoire...</p>
+                </div>
+              </div>
+
+              <!-- Bottom Progress Bar -->
+              <div class="video-progress-container" id="progressContainer">
+                <div class="video-progress-fill" id="progressFill"></div>
+              </div>
+
+              <!-- Center Big Play/Pause Button Indicator -->
+              <div class="play-overlay" id="playOverlay">
+                <div class="play-icon-circle">▶</div>
+              </div>
+
+              <!-- Voice Speaking Wave Indicator -->
+              <div class="speech-indicator" id="speechIndicator" style="display:none;">
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span>Voix Française Active</span>
+              </div>
+            </div>
+
+            <!-- Right Action Bar (TikTok Floating Icons) -->
+            <div class="tiktok-action-bar">
+              <div class="action-item" id="likeBtn">
+                <button class="action-circle"><span class="action-icon">❤️</span></button>
+                <span class="action-count" id="likeCount">1.4k</span>
+              </div>
+
+              <div class="action-item" id="transcriptToggleBtn">
+                <button class="action-circle" title="Lire l'histoire complète"><span class="action-icon">💬</span></button>
+                <span class="action-label">Histoire</span>
+              </div>
+
+              <div class="action-item" id="ttsSpeakBtn">
+                <button class="action-circle active" title="Lire à haute voix en Français (Web Speech)"><span class="action-icon">🗣️</span></button>
+                <span class="action-label">Voix FR</span>
+              </div>
+
+              <div class="action-item" id="muteToggleBtn">
+                <button class="action-circle" title="Son Activer/Couper"><span class="action-icon" id="muteIcon">🔊</span></button>
+                <span class="action-label" id="muteLabel">100%</span>
+              </div>
+
+              <div class="action-item" id="speedToggleBtn">
+                <button class="action-circle" title="Vitesse de lecture"><span class="action-icon" id="speedIcon">1x</span></button>
+                <span class="action-label">Vitesse</span>
+              </div>
+
+              <div class="action-item" id="downloadMp4Btn">
+                <a class="action-circle download-link" id="mp4DownloadLink" download title="Télécharger la Vidéo MP4 (< 1 min)">
+                  <span class="action-icon">📥</span>
+                </a>
+                <span class="action-label">MP4</span>
+              </div>
+
+              <div class="action-item" id="downloadSrtBtn">
+                <a class="action-circle download-link" id="srtDownloadLink" download title="Télécharger les sous-titres .SRT">
+                  <span class="action-icon">📝</span>
+                </a>
+                <span class="action-label">SRT</span>
+              </div>
+
+              <div class="action-item" id="renderMp4Btn">
+                <button class="action-circle render-btn" title="Générer / Re-rendre la vidéo MP4">
+                  <span class="action-icon" id="renderIcon">🎬</span>
+                </button>
+                <span class="action-label" id="renderLabel">Générer</span>
+              </div>
+            </div>
+
+            <!-- Up / Down Navigation Controls -->
+            <div class="feed-nav-controls">
+              <button class="feed-nav-btn prev-btn" id="prevVideoBtn" title="Animal précédent (Flèche Haut)">▲</button>
+              <button class="feed-nav-btn next-btn" id="nextVideoBtn" title="Animal suivant (Flèche Bas)">▼</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Side: Animal Bio & Facts Drawer -->
+        <aside class="feed-bio-card" id="bioDrawer">
+          <div class="bio-header">
+            <h3 id="bioTitle">🦁 Le Lion d'Afrique</h3>
+            <span class="bio-category" id="bioCategory">Savane & Félins</span>
+          </div>
+
+          <div class="bio-stats-grid">
+            <div class="stat-box">
+              <span class="stat-label">📍 Habitat</span>
+              <span class="stat-value" id="bioHabitat">Savanes africaines</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">⚡ Vitesse</span>
+              <span class="stat-value" id="bioSpeed">80 km/h</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">⏳ Espérance</span>
+              <span class="stat-value" id="bioLifespan">15 ans</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">⏱️ Durée Vidéo</span>
+              <span class="stat-value" id="bioDuration">&lt; 30s</span>
+            </div>
+          </div>
+
+          <div class="bio-story-section">
+            <h4>📖 Mon Histoire Secrète (Monologue) :</h4>
+            <div class="story-scroll" id="bioStoryText">
+              <!-- Full French story script -->
+            </div>
+          </div>
+
+          <div class="bio-actions">
+            <button class="btn btn-primary" id="drawerPlayAudioBtn">
+              <span>🔊</span> Écouter l'Histoire
+            </button>
+            <button class="btn btn-secondary" id="drawerDownloadMp4Btn">
+              <span>📥</span> Télécharger MP4
+            </button>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- 2. ENCYCLOPÉDIE & STUDIO GRID (104 ANIMAUX) -->
+    <section id="encyclopediaSection" class="tab-content">
+      <div class="encyclopedia-header">
+        <div>
+          <h2>📚 Encyclopédie Vivante des 104 Animaux</h2>
+          <p>Explorez toutes les histoires complètes, caractéristiques biologiques, voix et vidéos téléchargeables.</p>
+        </div>
+        <div class="encyclopedia-tools">
+          <span class="results-badge" id="resultsCount">104 animaux affichés</span>
+        </div>
+      </div>
+
+      <div class="animals-grid" id="animalsGrid">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </section>
+
+    <!-- 3. STUDIO DE GÉNÉRATION EN MASSE & EXPORT -->
+    <section id="generatorSection" class="tab-content">
+      <div class="generator-dashboard">
+        <div class="dashboard-header">
+          <h2>⚡ Studio de Génération Vidéo MP4</h2>
+          <p>Moteur de rendu vidéo haute performance TikTok 9:16 (720x1280, 30fps, audio synchronisé, sous-titres animés, sans watermark Arena).</p>
+        </div>
+
+        <div class="stats-overview">
+          <div class="overview-card">
+            <span class="card-icon">🐾</span>
+            <div class="card-data">
+              <span class="data-num" id="statTotalAnimals">104</span>
+              <span class="data-label">Total Animaux</span>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <span class="card-icon">🎬</span>
+            <div class="card-data">
+              <span class="data-num" id="statReadyVideos">8</span>
+              <span class="data-label">Vidéos MP4 Prêtes</span>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <span class="card-icon">⏱️</span>
+            <div class="card-data">
+              <span class="data-num">&lt; 1 min</span>
+              <span class="data-label">Durée par Vidéo</span>
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <span class="card-icon">🛡️</span>
+            <div class="card-data">
+              <span class="data-num">0% Logo</span>
+              <span class="data-label">100% Watermark-Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Control Bar -->
+        <div class="batch-controls-box">
+          <div class="batch-text">
+            <h3>🚀 Rendu en Masse des Vidéos</h3>
+            <p>Générez les fichiers MP4 directement sur le serveur avec l'accélération FFmpeg intégrée.</p>
+          </div>
+          <div class="batch-buttons">
+            <button class="btn btn-primary btn-lg" id="generateBatchBtn">
+              <span>⚡</span> Générer Toutes les Vidéos (104)
+            </button>
+            <button class="btn btn-secondary btn-lg" id="generateSampleBtn">
+              <span>🎯</span> Générer les 15 Premiers
+            </button>
+          </div>
+        </div>
+
+        <!-- Live Queue Status -->
+        <div class="queue-status-card">
+          <div class="queue-header">
+            <h4>📊 Statut de la File d'Attente de Rendu</h4>
+            <span class="queue-badge" id="queueStatusBadge">En attente</span>
+          </div>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="batchProgressFill" style="width: 10%;"></div>
+          </div>
+          <p class="queue-detail" id="queueDetailText">8 vidéos générées sur 104 prêtes pour le téléchargement immédiat.</p>
+        </div>
+
+        <!-- Rendered Videos Table -->
+        <div class="table-container">
+          <h3>📂 Fichiers Vidéo & Sous-Titres Disponibles</h3>
+          <table class="videos-table">
+            <thead>
+              <tr>
+                <th>Animal</th>
+                <th>Catégorie</th>
+                <th>Format</th>
+                <th>Durée</th>
+                <th>Statut MP4</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="videosTableBody">
+              <!-- Populated by JS -->
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Story Detail Modal -->
+  <div class="modal-backdrop" id="storyModal" style="display:none;">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn">✕</button>
+      <div class="modal-header">
+        <span class="modal-emoji" id="modalEmoji">🦁</span>
+        <div>
+          <h3 id="modalTitle">Le Lion d'Afrique</h3>
+          <p id="modalSub">Panthera leo • « Le Roi de la Savane »</p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-tags" id="modalTags"></div>
+        <h4>📜 Histoire & Monologue :</h4>
+        <p class="modal-story" id="modalStory"></p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="modalWatchBtn"><span>🎬</span> Regarder dans le Feed</button>
+        <button class="btn btn-secondary" id="modalSpeakBtn"><span>🗣️</span> Écouter</button>
+        <button class="btn btn-outline" id="modalDownloadMp4Btn"><span>📥</span> MP4</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4474 @@
+[
+  {
+    "id": "lion",
+    "name": "Le Lion d'Afrique",
+    "latin": "Panthera leo",
+    "category": "Savane & Félins",
+    "emoji": "🦁",
+    "title": "Le Roi de la Savane",
+    "habitat": "Plaines du Serengeti & Savanes africaines",
+    "lifespan": "10 à 15 ans",
+    "speed": "80 km/h",
+    "superpower": "Un rugissement audible à 8 kilomètres",
+    "color_primary": "#E08709",
+    "color_secondary": "#78350F",
+    "image_file": "images/lion.png",
+    "story": "Je suis le lion, seigneur incontesté de la savane africaine. Ma crinière d'or est le symbole de mon pouvoir et mon rugissement fait trembler la terre jusqu'à huit kilomètres. Avec ma troupe, nous veillons sur l'équilibre sacré des grandes plaines. Quand le soleil s'enflamme à l'horizon, je veille sur mon royaume éternel.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le lion, seigneur incontesté de la savane africaine."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma crinière dorée est le symbole sacré de mon autorité."
+      },
+      {
+        "start": 9.5,
+        "end": 15.0,
+        "text": "Mon rugissement fait trembler la terre à huit kilomètres."
+      },
+      {
+        "start": 15.0,
+        "end": 20.5,
+        "text": "Avec ma troupe, nous protégeons l'équilibre des plaines."
+      },
+      {
+        "start": 20.5,
+        "end": 26.0,
+        "text": "Quand le soleil se couche, je veille sur mon royaume éternel."
+      }
+    ]
+  },
+  {
+    "id": "tiger",
+    "name": "Le Tigre du Bengale",
+    "latin": "Panthera tigris tigris",
+    "category": "Savane & Félins",
+    "emoji": "🐯",
+    "title": "L'Ombre de la Jungle",
+    "habitat": "Forêts tropicales & Mangroves d'Inde",
+    "lifespan": "15 à 20 ans",
+    "speed": "65 km/h",
+    "superpower": "Rayures uniques et nageur exceptionnel",
+    "color_primary": "#F97316",
+    "color_secondary": "#1E293B",
+    "image_file": "images/tiger.png",
+    "story": "Moi, le tigre du Bengale, je règne en maître solitaire sur les jungles mystiques. Mes rayures noires sont le camouflage parfait sous la canopée. Contrairement aux autres félins, j'adore plonger et nager dans les rivières tropicales. Dans le silence de la nuit, je suis l'ombre agile et indomptable.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le tigre du Bengale, je règne en maître solitaire."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes rayures noires me fondent dans la jungle mystique."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'adore plonger et nager au cœur des rivières tropicales."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dans le silence de la nuit, je suis l'ombre agile."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "La puissance de mon pas résonne à travers la forêt."
+      }
+    ]
+  },
+  {
+    "id": "cheetah",
+    "name": "Le Guépard",
+    "latin": "Acinonyx jubatus",
+    "category": "Savane & Félins",
+    "emoji": "🐆",
+    "title": "L'Éclair de la Terre",
+    "habitat": "Savanes d'Afrique orientale et australe",
+    "lifespan": "12 ans",
+    "speed": "115 km/h",
+    "superpower": "Passe de 0 à 100 km/h en seulement 3 secondes",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#B45309",
+    "image_file": "images/cheetah.png",
+    "story": "Je suis le guépard, l'animal terrestre le plus rapide de cette planète. En trois secondes seulement, j'atteins cent kilomètres à l'heure ! Mes griffes semi-rétractiles agrippent le sol comme des crampons de sprinteur. Ma queue me sert de gouvernail lors de virages fulgurants. Je suis l'incarnation de la vitesse pure.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le guépard, l'être le plus rapide de la terre."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "En 3 secondes chrono, j'atteins cent kilomètres par heure !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes griffes agrippent le sol avec une précision millimétrée."
+      },
+      {
+        "start": 14.5,
+        "end": 20.0,
+        "text": "Ma queue sert de gouvernail lors de virages fulgurants."
+      },
+      {
+        "start": 20.0,
+        "end": 25.0,
+        "text": "Dans la poussière dorée, je suis l'éclair du désert."
+      }
+    ]
+  },
+  {
+    "id": "leopard",
+    "name": "Le Léopard",
+    "latin": "Panthera pardus",
+    "category": "Savane & Félins",
+    "emoji": "🐆",
+    "title": "Le Fantôme des Arbres",
+    "habitat": "Afrique subsaharienne & Asie centrale",
+    "lifespan": "15 ans",
+    "speed": "58 km/h",
+    "superpower": "Capable de hisser des proies plus lourdes que lui dans les arbres",
+    "color_primary": "#D97706",
+    "color_secondary": "#7C2D12",
+    "image_file": "images/leopard.png",
+    "story": "Je suis le léopard, le fantôme invisible des branches africaines. Ma force est prodigieuse : je peux hisser une antilope entière au sommet d'un acacia pour la déguster en toute sécurité. Mes rosettes mouchetées me dissimulent parmi les feuilles. Rien n'échappe à mon regard d'ambre.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le léopard, le fantôme invisible de la cime."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma force herculéenne me permet d'escalader chargé au sommet."
+      },
+      {
+        "start": 9.5,
+        "end": 15.0,
+        "text": "Mes rosettes mouchetées m'effacent dans le feuillage."
+      },
+      {
+        "start": 15.0,
+        "end": 20.0,
+        "text": "Perché dans mon arbre, j'observe le monde d'en haut."
+      },
+      {
+        "start": 20.0,
+        "end": 25.0,
+        "text": "Le silence est mon allié le plus redoutable."
+      }
+    ]
+  },
+  {
+    "id": "jaguar",
+    "name": "Le Jaguar",
+    "latin": "Panthera onca",
+    "category": "Savane & Félins",
+    "emoji": "🐆",
+    "title": "Le Guerrier des Eaux",
+    "habitat": "Bassin amazonien & Forêts humides",
+    "lifespan": "15 ans",
+    "speed": "80 km/h",
+    "superpower": "La mâchoire la plus puissante de tous les félins",
+    "color_primary": "#EA580C",
+    "color_secondary": "#431407",
+    "image_file": "images/jaguar.png",
+    "story": "Je suis le jaguar, divinité sacrée des civilisations mayas et aztèques. Ma mâchoire possède la morsure la plus puissante au monde : je peux transpercer la carapace d'une tortue ou d'un caïman d'un seul coup. L'eau de l'Amazone est mon royaume et la jungle est mon sanctuaire.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le jaguar, dieu vivant des forêts d'Amazonie."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma morsure est la plus puissante de tout le règne félin."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je plonge sans crainte pour affronter les caïmans."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Vénéré par les Mayas, je suis l'esprit gardien des arbres."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "Mon pas feutré fait frémir les rivières émeraude."
+      }
+    ]
+  },
+  {
+    "id": "black_panther",
+    "name": "La Panthère Noire",
+    "latin": "Panthera pardus (mélanique)",
+    "category": "Savane & Félins",
+    "emoji": "🐈‍⬛",
+    "title": "L'Ombre Nocturne",
+    "habitat": "Forêts denses de Malaisie et d'Afrique",
+    "lifespan": "15 ans",
+    "speed": "60 km/h",
+    "superpower": "Camouflage nocturne total grâce au mélanisme",
+    "color_primary": "#0F172A",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/black_panther.png",
+    "story": "Je suis la panthère noire, l'énigme la plus fascinante de la nuit. Mon pelage d'ébène abrite en réalité de subtiles rosettes secrètes. Dans l'obscurité totale de la forêt équatoriale, seuls mes yeux dorés et étincelants percent le voile du mystère. Je suis la poésie de l'ombre.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la panthère noire, l'énigme absolue de la nuit."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon manteau d'ébène dissimule des rosettes secrètes."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Dans l'obscurité totale, mes yeux dorés illuminent l'espace."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je me déplace sans faire le moindre bruit."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Je suis la grâce et la puissance de la nuit sauvage."
+      }
+    ]
+  },
+  {
+    "id": "puma",
+    "name": "Le Puma",
+    "latin": "Puma concolor",
+    "category": "Savane & Félins",
+    "emoji": "🦁",
+    "title": "Le Roi des Montagnes",
+    "habitat": "Montagnes Rocheuses & Cordillère des Andes",
+    "lifespan": "13 ans",
+    "speed": "70 km/h",
+    "superpower": "Des bonds prodigieux de plus de 12 mètres de long",
+    "color_primary": "#CA8A04",
+    "color_secondary": "#713F12",
+    "image_file": "images/puma.png",
+    "story": "Je suis le puma, également appelé lion des montagnes ou cougar. Du Canada jusqu'au fin fond de la Patagonie, je domine les falaises escarpées. Mes pattes puissantes me permettent d'effectuer des bonds prodigieux de douze mètres en longueur et six mètres en hauteur !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le puma, souverain des falaises et des sommets."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes bonds prodigieux atteignent douze mètres de long !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Des Rocheuses à la Patagonie, je parcours les crêtes."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Agile et solitaire, j'affronte le vent des hauteurs."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La montagne entière est mon territoire de liberté."
+      }
+    ]
+  },
+  {
+    "id": "caracal",
+    "name": "Le Caracal",
+    "latin": "Caracal caracal",
+    "category": "Savane & Félins",
+    "emoji": "🐱",
+    "title": "L'Oreille de Feu",
+    "habitat": "Semi-déserts et steppes d'Afrique et d'Asie",
+    "lifespan": "12 ans",
+    "speed": "80 km/h",
+    "superpower": "Bonds verticaux de 3 mètres pour attraper les oiseaux en vol",
+    "color_primary": "#D97706",
+    "color_secondary": "#451A03",
+    "image_file": "images/caracal.png",
+    "story": "Moi, le caracal, je possède de magnifiques touffes de poils noirs au sommet de mes oreilles qui captent les moindres sons. Tel un ressort vivant, je bondis à plus de trois mètres dans les airs pour attraper des oiseaux en plein vol. Mon élégance rousse cache une précision chirurgicale.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le caracal, je possède des oreilles ornées de panaches noirs."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Je bondis à 3 mètres de hauteur pour intercepter les oiseaux en vol."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes sens ultra-développés entendent chaque frémissement d'herbe."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dans les steppes arides, je suis la vivacité incarnée."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un éclair de grâce au cœur du crépuscule."
+      }
+    ]
+  },
+  {
+    "id": "serval",
+    "name": "Le Serval",
+    "latin": "Leptailurus serval",
+    "category": "Savane & Félins",
+    "emoji": "🐆",
+    "title": "L'Acrobate aux Grandes Oreilles",
+    "habitat": "Hautes herbes et marais africains",
+    "lifespan": "12 ans",
+    "speed": "75 km/h",
+    "superpower": "Les plus longues pattes et plus grandes oreilles relatives",
+    "color_primary": "#EAB308",
+    "color_secondary": "#854D0E",
+    "image_file": "images/serval.png",
+    "story": "Je suis le serval, le félin aux proportions fascinantes. Mes très longues pattes me permettent de voir par-dessus les hautes herbes et mes immenses oreilles entendent les rongeurs sous terre. Mon taux de réussite à la chasse dépasse cinquante pour cent, un record parmi les félins !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le serval, l'acrobate des hautes herbes dorées."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes oreilles radar détectent les proies cachées sous la terre."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon taux de réussite à la chasse est l'un des plus élevés au monde."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je saute avec la légèreté d'une plume dans la brise."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La savane secrète n'a aucun secret pour moi."
+      }
+    ]
+  },
+  {
+    "id": "hyena",
+    "name": "La Hyène Tachetée",
+    "latin": "Crocuta crocuta",
+    "category": "Savane & Félins",
+    "emoji": "🐺",
+    "title": "La Stratège des Plaines",
+    "habitat": "Afrique subsaharienne",
+    "lifespan": "20 ans",
+    "speed": "60 km/h",
+    "superpower": "Mâchoires capables de broyer les os les plus durs",
+    "color_primary": "#A16207",
+    "color_secondary": "#3F2C1D",
+    "image_file": "images/hyena.png",
+    "story": "Je suis la hyène tachetée, souvent incomprise mais extraordinairement intelligente. Nos clans sont dirigés par des femelles fortes et solidaires. Avec une mâchoire capable de broyer les os les plus épais, nous sommes d'incroyables chasseuses et les nettoyeuses vitales de la savane.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la hyène tachetée, reine de la stratégie collective."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nos clans soudés sont dirigés par des femelles valeureuses."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nos mâchoires d'acier broient même les os les plus résistants."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous maintenons la savane propre et en parfaite santé."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Notre rire mythique célèbre la force de notre clan."
+      }
+    ]
+  },
+  {
+    "id": "lycaon",
+    "name": "Le Lycaon",
+    "latin": "Lycaon pictus",
+    "category": "Savane & Félins",
+    "emoji": "🐕",
+    "title": "Le Chasseur Peint",
+    "habitat": "Savanes arborées d'Afrique",
+    "lifespan": "11 ans",
+    "speed": "70 km/h",
+    "superpower": "Chasse en meute avec 80% de taux de succès",
+    "color_primary": "#D97706",
+    "color_secondary": "#1E293B",
+    "image_file": "images/lycaon.png",
+    "story": "Moi, le lycaon, chien sauvage d'Afrique, je porte une magnifique robe tachetée unique à chaque individu. Notre sens de la solidarité est légendaire : nous prenons soin des blessés, des malades et des petits avec un dévouement absolu. Notre coordination en meute est incomparable.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le lycaon, je porte une parure multicolore unique."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "La solidarité est la loi sacrée qui guide notre meute."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous prenons soin des anciens, des blessés et des petits."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Notre esprit d'équipe surpasse tous les obstacles."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Unis, nous traversons les vastes horizons sauvages."
+      }
+    ]
+  },
+  {
+    "id": "ocelot",
+    "name": "L'Ocelot",
+    "latin": "Leopardus pardalis",
+    "category": "Savane & Félins",
+    "emoji": "🐱",
+    "title": "Le Prince Tropical",
+    "habitat": "Forêts tropicales et mangroves d'Amérique centrale et du Sud",
+    "lifespan": "18 ans",
+    "speed": "60 km/h",
+    "superpower": "Pelage soyeux et vision nocturne exceptionnelle",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#451A03",
+    "image_file": "images/ocelot.png",
+    "story": "Je suis l'ocelot, le joyau tacheté d'Amérique latine. Mon pelage velouté est une œuvre d'art de la nature. Agile grimpeur et excellent nageur, j'explore les forêts luxuriantes sous la lueur des étoiles. Mon regard perspicace scrute chaque mystère végétal.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'ocelot, le joyau tacheté des tropiques."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon pelage soyeux est un chef-d'œuvre de la nature."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'escalade les lianes et nage dans les ruisseaux tièdes."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Les nuits tropicales s'illuminent sous mes pas discrets."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Je suis la grâce féline au cœur de l'Amazonie."
+      }
+    ]
+  },
+  {
+    "id": "dolphin",
+    "name": "Le Dauphin",
+    "latin": "Delphinus delphis",
+    "category": "Océans & Mers",
+    "emoji": "🐬",
+    "title": "L'Acrobate des Flots",
+    "habitat": "Océans tempérés et tropicaux du monde entier",
+    "lifespan": "30 à 50 ans",
+    "speed": "55 km/h",
+    "superpower": "Écholocalisation sophistiquée et intelligence empathique",
+    "color_primary": "#0EA5E9",
+    "color_secondary": "#0369A1",
+    "image_file": "images/dolphin.png",
+    "story": "Je suis le dauphin, le danseur joyeux des mers turquoises. Grâce à mon sonar biologique, je peux cartographier les fonds marins avec une clarté absolue. Nous communiquons par des sifflements personnalisés : chaque dauphin possède son propre prénom vocal ! Rejoignez notre danse océanique !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le dauphin, le danseur joyeux des mers turquoises."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon écholocalisation cartographie l'océan avec précision."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Chaque dauphin possède son propre prénom sonore unique !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous sautons par-dessus les vagues avec allégresse."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "L'amour et l'amitié guident notre famille marine."
+      }
+    ]
+  },
+  {
+    "id": "whale",
+    "name": "La Baleine Bleue",
+    "latin": "Balaenoptera musculus",
+    "category": "Océans & Mers",
+    "emoji": "🐋",
+    "title": "Le Géant des Abysses",
+    "habitat": "Tous les océans du globe",
+    "lifespan": "80 à 90 ans",
+    "speed": "50 km/h",
+    "superpower": "Le plus grand animal ayant jamais existé (30 mètres, 180 tonnes)",
+    "color_primary": "#0284C7",
+    "color_secondary": "#0C4A6E",
+    "image_file": "images/whale.png",
+    "story": "Je suis la baleine bleue, la créature la plus majestueuse et colossale ayant jamais vécu sur Terre. Mon cœur pèse autant qu'une petite voiture et mes chants profonds voyagent à travers des milliers de kilomètres d'océan. Je parcours les immensités bleues en paix et en harmonie.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la baleine bleue, la reine géante des abysses."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon corps mesure 30 mètres et pèse 180 tonnes d'émotion."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes chants mélodieux traversent des océans entiers."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je me nourris paisiblement de krill dans les eaux polaires."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "Je suis la mémoire vivante de la planète bleue."
+      }
+    ]
+  },
+  {
+    "id": "orca",
+    "name": "L'Orque Épaulard",
+    "latin": "Orcinus orca",
+    "category": "Océans & Mers",
+    "emoji": "🐳",
+    "title": "Le Stratège de l'Océan",
+    "habitat": "Eaux côtières froides et polaires",
+    "lifespan": "50 à 80 ans",
+    "speed": "56 km/h",
+    "superpower": "Intelligence tactique et cultures transmises de mère en fille",
+    "color_primary": "#0F172A",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/orca.png",
+    "story": "Je suis l'orque, le superprédateur le plus brillant des océans. Nos familles matrilinéaires partagent un dialecte vocal et des techniques de chasse transmises de génération en génération. Nous créons des vagues coordonnées pour faire glisser les phoques des banquises. L'intelligence est notre arme suprême.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'orque, le stratège incontesté des eaux froides."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Notre famille matriarcale préserve une culture millénaire."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous coordonnons nos vagues pour chasser en équipe."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Chaque clan possède son propre dialecte vocal distinct."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Les glaces polaires saluent notre force majestueuse."
+      }
+    ]
+  },
+  {
+    "id": "shark",
+    "name": "Le Grand Requin Blanc",
+    "latin": "Carcharodon carcharias",
+    "category": "Océans & Mers",
+    "emoji": "🦈",
+    "title": "Le Gardien des Mers",
+    "habitat": "Eaux côtières tempérées du monde entier",
+    "lifespan": "70 ans",
+    "speed": "56 km/h",
+    "superpower": "Ampoules de Lorenzini détectant les champs électriques",
+    "color_primary": "#475569",
+    "color_secondary": "#0F172A",
+    "image_file": "images/shark.png",
+    "story": "Je suis le grand requin blanc, sentinelle essentielle de l'écosystème marin depuis 400 millions d'années. Grâce à mes ampoules de Lorenzini, je perçois les impulsions électriques des battements de cœur sous l'eau. Je régule la vie marine pour garder les océans vivants et équilibrés.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le grand requin blanc, gardien de l'océan depuis des éons."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes capteurs sensoriels perçoivent les battements de cœur à distance."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma silhouette profilée fend les courants marins sans effort."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je préserve la santé et l'harmonie des fonds marins."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Respectez la beauté et la puissance de la mer."
+      }
+    ]
+  },
+  {
+    "id": "octopus",
+    "name": "La Pieuvre Géante",
+    "latin": "Enteroctopus dofleini",
+    "category": "Océans & Mers",
+    "emoji": "🐙",
+    "title": "Le Génie Tentaculaire",
+    "habitat": "Pacifique Nord et profondeurs rocheuses",
+    "lifespan": "3 à 5 ans",
+    "speed": "40 km/h",
+    "superpower": "3 cœurs, 9 cerveaux et métamorphose chromatique",
+    "color_primary": "#9333EA",
+    "color_secondary": "#581C87",
+    "image_file": "images/octopus.png",
+    "story": "Moi, la pieuvre, je suis une merveille biologique : j'ai trois cœurs, du sang bleu et neuf cerveaux ! Mes huit tentacules pensent et goûtent de manière autonome. En un clin d'œil, je change de couleur et de texture pour me fondre dans n'importe quel rocher ou corail. Je suis l'intelligence des profondeurs.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, la pieuvre, je possède trois cœurs et neuf cerveaux !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon sang est bleu et mes tentacules goûtent ce qu'ils touchent."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je change de couleur et de relief en une fraction de seconde."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je résous des énigmes complexes dans les récifs profonds."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La magie des abysses réside dans mes huit bras."
+      }
+    ]
+  },
+  {
+    "id": "sea_turtle",
+    "name": "La Tortue Marine",
+    "latin": "Chelonia mydas",
+    "category": "Océans & Mers",
+    "emoji": "🐢",
+    "title": "La Voyageuse Millénaire",
+    "habitat": "Océans tropicaux et récifs coralliens",
+    "lifespan": "80 à 100 ans",
+    "speed": "35 km/h",
+    "superpower": "Navigation magnétique à travers des milliers de kilomètres",
+    "color_primary": "#059669",
+    "color_secondary": "#064E3B",
+    "image_file": "images/sea_turtle.png",
+    "story": "Je suis la tortue marine, sage voyageuse des courants chauds. Guidée par le champ magnétique terrestre, je traverse des océans entiers pour revenir pondre exactement sur la plage où je suis née, des décennies plus tard. Les récifs coralliens sont mon jardin de sérénité.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la tortue marine, sage navigatrice des courants chauds."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Le magnétisme terrestre me guide à travers les grands océans."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je retourne pondre sur la plage exacte de ma naissance."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je glisse avec grâce parmi les coraux multicolores."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La patience et la douceur sont ma force éternelle."
+      }
+    ]
+  },
+  {
+    "id": "seahorse",
+    "name": "L'Hippocampe",
+    "latin": "Hippocampus",
+    "category": "Océans & Mers",
+    "emoji": "🌊",
+    "title": "Le Cavalier des Récifs",
+    "habitat": "Herbiers marins et mangroves tropicales",
+    "lifespan": "1 à 5 ans",
+    "speed": "1.5 m/min",
+    "superpower": "Le seul animal où le mâle porte et donne naissance aux bébés",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#0D9488",
+    "image_file": "images/seahorse.png",
+    "story": "Je suis l'hippocampe, le petit cheval féerique de la mer. Chez nous, c'est le papa qui porte les œufs dans sa poche ventrale et met au monde des centaines de minuscules bébés ! Avec ma queue préhensile, je m'accroche délicatement aux herbiers marins pour ne pas être emporté par le courant.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'hippocampe, le cheval féerique des prairies marines."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Chez nous, le père donne naissance avec tendresse aux bébés."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma queue s'enroule autour des algues pour danser avec le flot."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes yeux indépendants surveillent chaque rayon de soleil."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un miracle de délicatesse au fond des eaux claires."
+      }
+    ]
+  },
+  {
+    "id": "manta_ray",
+    "name": "La Raie Manta Géante",
+    "latin": "Mobula birostris",
+    "category": "Océans & Mers",
+    "emoji": "🌊",
+    "title": "L'Oiseau des Profondeurs",
+    "habitat": "Eaux tropicales et récifs pélagiques",
+    "lifespan": "40 ans",
+    "speed": "24 km/h",
+    "superpower": "Envergure de 7 mètres et cerceau aquatique spectaculaire",
+    "color_primary": "#0284C7",
+    "color_secondary": "#1E1B4B",
+    "image_file": "images/manta_ray.png",
+    "story": "Je suis la raie manta géante, l'ange majestueux des mers chaudes. Avec mon envergure de sept mètres, je vole sous l'eau avec une grâce incomparable. Inoffensive et douce, je filtre le plancton en effectuant de magnifiques loopings aquatiques qui émerveillent le monde marin.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la raie manta, l'oiseau majestueux des mers chaudes."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes ailes de sept mètres planent avec une élégance infinie."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'effectue des loopings sous-marins pour filtrer le plancton."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Douce et pacifique, je danse avec les courants tropicaux."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La liberté totale s'exprime dans mon vol sous l'eau."
+      }
+    ]
+  },
+  {
+    "id": "walrus",
+    "name": "Le Morse",
+    "latin": "Odobenus rosmarus",
+    "category": "Océans & Mers",
+    "emoji": "🦭",
+    "title": "Le Colosse des Glaces",
+    "habitat": "Eaux arctiques et banquises polaires",
+    "lifespan": "40 ans",
+    "speed": "35 km/h (dans l'eau)",
+    "superpower": "Défenses d'ivoire d'un mètre pour se hisser sur la glace",
+    "color_primary": "#78350F",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/walrus.png",
+    "story": "Je suis le morse, géant débonnaire de l'océan Arctique. Mes défenses d'ivoire mesurent jusqu'à un mètre : elles me servent à creuser le fond marin pour dénicher des palourdes et à m'extirper de l'eau sur la banquise. Mes longues moustaches vibratiles sentent le moindre trésor glacé.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le morse, colosse bienveillant de l'Arctique polaire."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes défenses d'un mètre m'aident à grimper sur la banquise."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes moustaches sensibles découvrent des coquillages sous le sable."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "En colonie sur la glace, nous partageons la chaleur du groupe."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le grand nord résonne de nos voix puissantes."
+      }
+    ]
+  },
+  {
+    "id": "sea_lion",
+    "name": "L'Otarie de Californie",
+    "latin": "Zalophus californianus",
+    "category": "Océans & Mers",
+    "emoji": "🦭",
+    "title": "L'Artiste Aquatique",
+    "habitat": "Côtes rocheuses du Pacifique Est",
+    "lifespan": "25 ans",
+    "speed": "40 km/h",
+    "superpower": "Acrobaties ultra-rapides et nage avec nageoires antérieures",
+    "color_primary": "#92400E",
+    "color_secondary": "#0284C7",
+    "image_file": "images/sea_lion.png",
+    "story": "Je suis l'otarie, la championne d'acrobatie marine des côtes rocheuses. Dans l'eau, j'utilise mes puissantes nageoires avant pour voler comme un oiseau et faire des vrilles vertigineuses. Sur la terre ferme, je marche fièrement sur mes quatre membres sous les applaudissements des vagues.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'otarie, l'athlète joyeuse des vagues du Pacifique."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes nageoires puissantes me propulsent en vrilles spectaculaires."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Sur les rochers ensoleillés, j'adore me chauffer au soleil."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Ma curiosité et mon énergie débordante n'ont pas de limites."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'océan est mon terrain de jeu infini."
+      }
+    ]
+  },
+  {
+    "id": "beluga",
+    "name": "Le Béluga",
+    "latin": "Delphinapterus leucas",
+    "category": "Océans & Mers",
+    "emoji": "🐳",
+    "title": "Le Canari des Mers",
+    "habitat": "Eaux côtières de l'Arctique et subarctique",
+    "lifespan": "50 ans",
+    "speed": "22 km/h",
+    "superpower": "Cou flexible et répertoire de vocalises ultra-mélodieux",
+    "color_primary": "#E0F2FE",
+    "color_secondary": "#0284C7",
+    "image_file": "images/beluga.png",
+    "story": "Moi, le béluga, on m'appelle le canari des mers pour mes sifflements et chants mélodieux ! Mon melon frontal peut changer de forme pour moduler mes sons. Contrairement aux autres baleines, mon cou est articulé : je peux tourner la tête pour vous saluer avec un large sourire blanc.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le béluga, on m'appelle le canari mélodieux des mers !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon cou flexible me permet de tourner la tête et sourire."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon front s'arrondit pour sculpter des sons cristallins."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Blanc comme la neige polaire, je nage parmi les icebergs."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La douceur et la joie illuminent les eaux boréales."
+      }
+    ]
+  },
+  {
+    "id": "narwhal",
+    "name": "Le Narval",
+    "latin": "Monodon monoceros",
+    "category": "Océans & Mers",
+    "emoji": "🦄",
+    "title": "La Licorne de l'Arctique",
+    "habitat": "Glaces dérivantes de l'océan Arctique",
+    "lifespan": "50 ans",
+    "speed": "30 km/h",
+    "superpower": "Défense spiralée de 3 mètres truffée de 10 millions de récepteurs sensoriels",
+    "color_primary": "#0369A1",
+    "color_secondary": "#F0F9FF",
+    "image_file": "images/narwhal.png",
+    "story": "Je suis le narval, la véritable licorne des mers arctiques. Ma corne légendaire est en réalité une longue dent spiralée de trois mètres, remplie de millions de capteurs sensoriels qui analysent la température et la salinité de l'eau. Je glisse sous la banquise avec mystère et noblesse.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le narval, la licorne légendaire des mers polaires."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma corne spiralée de trois mètres est une merveille sensorielle."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Elle ressent la température et les vibrations de l'océan glacé."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je plonge à plus de 1500 mètres sous les glaces dérivantes."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un souffle de magie au cœur de la nuit polaire."
+      }
+    ]
+  },
+  {
+    "id": "whale_shark",
+    "name": "Le Requin-Baleine",
+    "latin": "Rhincodon typus",
+    "category": "Océans & Mers",
+    "emoji": "🦈",
+    "title": "Le Pacifique Géant",
+    "habitat": "Eaux tropicales et tempérées chaudes",
+    "lifespan": "100 ans",
+    "speed": "5 km/h",
+    "superpower": "Le plus grand poisson au monde (15 mètres) totalement inoffensif",
+    "color_primary": "#0284C7",
+    "color_secondary": "#E2E8F0",
+    "image_file": "images/whale_shark.png",
+    "story": "Je suis le requin-baleine, le plus grand poisson de toute la Terre. Malgré ma taille impressionnante de quinze mètres, je suis doux comme un agneau marin. Ma peau est parsemée d'une constellation de points blancs unique. J'ouvre ma bouche géante pour filtrer doucement le plancton marin.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le requin-baleine, le plus grand poisson de l'océan."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma parure étoilée de points blancs est unique au monde."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Doux et paisible géant, je me nourris uniquement de plancton."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Les plongeurs nagent à mes côtés dans une totale quiétude."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Je traverse les mers chaudes avec une paix céleste."
+      }
+    ]
+  },
+  {
+    "id": "jellyfish",
+    "name": "La Méduse Dorée",
+    "latin": "Mastigias papua",
+    "category": "Océans & Mers",
+    "emoji": "🪼",
+    "title": "La Danseuse de Lumière",
+    "habitat": "Lacs marins des Palaos et lagons du Pacifique",
+    "lifespan": "1 à 2 ans",
+    "speed": "1 km/h",
+    "superpower": "Bioluminescence et symbiose solaire",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#8B5CF6",
+    "image_file": "images/jellyfish.png",
+    "story": "Je suis la méduse dorée, créature de verre et de poésie aquatique. Dans les eaux calmes, je suis la lumière du soleil pour nourrir les micro-algues qui vivent en symbiose dans mes tissus translucides. Pulsant au rythme du cosmos, je flotte comme une lanterne vivante dans les eaux claires.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la méduse dorée, lanterne vivante des lagons sacrés."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon corps translucide pulse au rythme doux des courants."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je vis en harmonie avec la lumière du soleil tropical."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Par millions, nous créons un ballet féerique inoubliable."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La beauté silencieuse des abysses lumineux."
+      }
+    ]
+  },
+  {
+    "id": "eagle",
+    "name": "L'Aigle Royal",
+    "latin": "Aquila chrysaetos",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦅",
+    "title": "Le Souverain des Cieux",
+    "habitat": "Massifs montagneux et falaises alpines",
+    "lifespan": "30 ans",
+    "speed": "320 km/h en piqué",
+    "superpower": "Vision 8 fois supérieure à l'homme et piqués supersoniques",
+    "color_primary": "#B45309",
+    "color_secondary": "#1E293B",
+    "image_file": "images/eagle.png",
+    "story": "Je suis l'aigle royal, monarque absolu des hauteurs alpines. Mes serres puissantes et ma vue perçante me permettent de repérer un lièvre à trois kilomètres de distance. En plongeant en piqué à plus de trois cents kilomètres par heure, je fends les nuages avec la force de la foudre.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'aigle royal, souverain suprême des sommets enneigés."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes yeux perçants détectent une proie à trois kilomètres."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "En piqué fulgurant, j'atteins 320 kilomètres à l'heure !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Les courants ascendants portent mes deux mètres d'envergure."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "Je suis la liberté absolue au-dessus des nuages."
+      }
+    ]
+  },
+  {
+    "id": "owl",
+    "name": "Le Hibou Grand-Duc",
+    "latin": "Bubo bubo",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦉",
+    "title": "Le Gardien de la Nuit",
+    "habitat": "Forêts denses et parois rocheuses",
+    "lifespan": "25 ans",
+    "speed": "80 km/h",
+    "superpower": "Vol 100% silencieux et rotation de la tête à 270 degrés",
+    "color_primary": "#92400E",
+    "color_secondary": "#172554",
+    "image_file": "images/owl.png",
+    "story": "Moi, le hibou grand-duc, je suis le plus grand rapace nocturne du monde. Mes plumes duveteuses absorbent chaque turbulence d'air, rendant mon vol totalement inaudible. Mes yeux orange captent la plus infime particule de lumière lunaire. Dans la nuit noire, je veille sur le royaume sylvestre.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le hibou grand-duc, je veille sur la forêt endormie."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon vol est 100% silencieux grâce à mes plumes duveteuses."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je tourne ma tête à 270 degrés sans bouger le corps."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes yeux d'ambre percent la nuit la plus ténébreuse."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La sagesse de la forêt s'exprime dans mon hululement."
+      }
+    ]
+  },
+  {
+    "id": "peregrine_falcon",
+    "name": "Le Faucon Pèlerin",
+    "latin": "Falco peregrinus",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦅",
+    "title": "Le Missile Vivant",
+    "habitat": "Falaises côtières et gratte-ciels du monde entier",
+    "lifespan": "15 ans",
+    "speed": "390 km/h en piqué",
+    "superpower": "L'animal le plus rapide du règne animal vivant",
+    "color_primary": "#334155",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/peregrine_falcon.png",
+    "story": "Je suis le faucon pèlerin, la créature la plus rapide de tout l'univers vivant. Lors de mes piqués vertigineux pour attraper des proies en plein vol, je dépasse les 390 kilomètres par heure ! Mes narines possèdent des déflecteurs d'air pour respirer à cette vitesse phénoménale. Je suis la flèche du ciel.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le faucon pèlerin, l'être le plus rapide de la création."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "En piqué supersonique, je fends l'air à 390 km/h !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes narines aérodynamiques me permettent de respirer à pleine vitesse."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je frappe ma cible avec une précision millimétrique."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le ciel est mon autoroute infinie."
+      }
+    ]
+  },
+  {
+    "id": "macaw_parrot",
+    "name": "Le Perroquet Ara Rouge",
+    "latin": "Ara macao",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦜",
+    "title": "L'Arc-en-Ciel Tropical",
+    "habitat": "Canopée des forêts tropicales d'Amérique du Sud",
+    "lifespan": "50 à 75 ans",
+    "speed": "55 km/h",
+    "superpower": "Bec capable de briser des noix du Brésil et fidélité à vie",
+    "color_primary": "#EF4444",
+    "color_secondary": "#3B82F6",
+    "image_file": "images/macaw_parrot.png",
+    "story": "Je suis l'ara rouge, l'éclatante explosion de couleurs de la forêt amazonienne. Mon puissant bec peut briser la coque des noix les plus dures. Avec mon partenaire, nous formons un couple fidèle pour toute notre vie et survolons les rivières en poussant des cris joyeux qui célèbrent la vie.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'ara rouge, le messager éclatant de la jungle."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes plumes écarlates, jaunes et bleues peignent la canopée."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon bec d'acier casse les noix les plus coriaces d'Amazonie."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Fidèle en amour, je vole aux côtés de mon âme sœur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La joie des tropiques vibre dans nos appels sonores."
+      }
+    ]
+  },
+  {
+    "id": "hummingbird",
+    "name": "Le Colibri",
+    "latin": "Trochilidae",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🐦",
+    "title": "Le Joyau Volant",
+    "habitat": "Jardins floraux et forêts d'Amérique",
+    "lifespan": "5 ans",
+    "speed": "80 km/h",
+    "superpower": "Vol stationnaire et en arrière avec 80 battements d'ailes par seconde",
+    "color_primary": "#10B981",
+    "color_secondary": "#F43F5E",
+    "image_file": "images/hummingbird.png",
+    "story": "Je suis le colibri, le minuscule joyau aux reflets irisés. Mes ailes battent jusqu'à quatre-vingts fois par seconde, me permettant de voler en arrière, à l'envers ou de rester parfaitement immobile dans les airs. Je butine le nectar des fleurs avec une passion inépuisable.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le colibri, le minuscule joyau scintillant des fleurs."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes ailes vibrent 80 fois par seconde en huit parfait !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je suis le seul oiseau capable de voler en arrière."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon cœur bat à plus de mille pulsations par minute."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La pure énergie de la nature dans une plume."
+      }
+    ]
+  },
+  {
+    "id": "toucan",
+    "name": "Le Toucan Toco",
+    "latin": "Ramphastos toco",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦜",
+    "title": "Le Prince au Grand Bec",
+    "habitat": "Savanes et forêts claires d'Amérique du Sud",
+    "lifespan": "20 ans",
+    "speed": "40 km/h",
+    "superpower": "Bec ultra-léger servant de régulateur thermique",
+    "color_primary": "#F97316",
+    "color_secondary": "#0F172A",
+    "image_file": "images/toucan.png",
+    "story": "Moi, le toucan toco, je possède un bec immense et magnifiquement orange ! Malgré sa taille spectaculaire, il est incroyablement léger grâce à sa structure alvéolaire en kératine. Il me sert de climatiseur naturel pour réguler ma température corporelle sous la chaleur des tropiques.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le toucan toco, j'arbore le bec le plus célèbre du monde !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon bec géant est ultra-léger et régule ma température corporelle."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'attrape les fruits mûrs avec une dextérité prodigieuse."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je sautille de branche en branche dans les arbres fruitiers."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La bonne humeur des forêts brésiliennes est en moi."
+      }
+    ]
+  },
+  {
+    "id": "flamingo",
+    "name": "Le Flamant Rose",
+    "latin": "Phoenicopterus roseus",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦩",
+    "title": "La Danseuse Rose",
+    "habitat": "Lagunes salées et lacs côtiers",
+    "lifespan": "40 ans",
+    "speed": "60 km/h",
+    "superpower": "Filtration à l'envers et équilibre parfait sur une patte",
+    "color_primary": "#F43F5E",
+    "color_secondary": "#FB7185",
+    "image_file": "images/flamingo.png",
+    "story": "Je suis le flamant rose, l'élégance poétique des lagunes salées. Ma couleur rose flamboyante provient des caroténoïdes contenus dans les petites crevettes dont je me nourris. Je dors paisiblement en équilibre sur une seule patte pour conserver ma chaleur corporelle.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le flamant rose, l'icône de grâce des lagunes salées."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma couleur rosée vient des crevettes gorgées de carotène."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je filtre l'eau la tête en bas avec un bec spécialisé."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dormir sur une seule patte est mon secret d'équilibre."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Une symphonie pastel sous les reflets de l'eau."
+      }
+    ]
+  },
+  {
+    "id": "raven",
+    "name": "Le Grand Corbeau",
+    "latin": "Corvus corax",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦅",
+    "title": "Le Sage Prophète",
+    "habitat": "Hémisphère nord, des forêts aux toundras",
+    "lifespan": "25 ans",
+    "speed": "80 km/h",
+    "superpower": "Résolution de problèmes complexes et mémoire des visages humains",
+    "color_primary": "#1E293B",
+    "color_secondary": "#64748B",
+    "image_file": "images/raven.png",
+    "story": "Je suis le grand corbeau, l'un des esprits les plus intelligents de la Terre. Je sais fabriquer des outils, résoudre des énigmes complexes à plusieurs étapes et mémoriser les visages humains pendant des années. Mon plumage noir brille de reflets violets sous la lumière.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le grand corbeau, le stratège au plumage d'ébène."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Je résous des énigmes complexes et utilise des outils inventés."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je reconnais les visages humains et transmets le savoir."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dans les mythes anciens, je suis le gardien du savoir secret."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le ciel mystique s'incline devant ma ruse."
+      }
+    ]
+  },
+  {
+    "id": "swan",
+    "name": "Le Cygne Chanteur",
+    "latin": "Cygnus cygnus",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦢",
+    "title": "L'Élégance Pure",
+    "habitat": "Lacs d'eau douce et cours d'eau tempérés",
+    "lifespan": "20 ans",
+    "speed": "70 km/h",
+    "superpower": "Fidélité absolue et grâce aquatique inégalée",
+    "color_primary": "#F8FAFC",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/swan.png",
+    "story": "Je suis le cygne, symbole intemporel de pureté et d'amour éternel. Quand je nage sur les étangs calmes, mes ailes forment un dôme délicat et mon cou dessine une courbe parfaite. Nous restons fidèles au même partenaire tout au long de notre existence.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le cygne, l'incarnation de la pureté et de l'amour."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon cou gracieux et mes ailes blanches glissent sur les lacs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Avec mon partenaire, notre fidélité dure toute une vie."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos parades nuptiales forment un cœur parfait sur l'onde."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La quiétude des eaux calmes reflète ma noblesse."
+      }
+    ]
+  },
+  {
+    "id": "peacock",
+    "name": "Le Paon Bleu",
+    "latin": "Pavo cristatus",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦚",
+    "title": "L'Oiseau aux Mille Yeux",
+    "habitat": "Forêts ouvertes d'Inde et du Sri Lanka",
+    "lifespan": "20 ans",
+    "speed": "30 km/h",
+    "superpower": "Roue spectaculaire ornée de plus de 150 ocelles métalliques",
+    "color_primary": "#2563EB",
+    "color_secondary": "#059669",
+    "image_file": "images/peacock.png",
+    "story": "Je suis le paon bleu, paré de la traîne la plus éblouissante du royaume des oiseaux. Quand je déploie mes plumes en éventail, plus de cent cinquante ocelles émeraude et saphir scintillent sous la lumière. Ma roue est une ode magistrale à la splendeur du monde naturel.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le paon bleu, l'ambassadeur de la splendeur visuelle."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma roue féerique dévoile 150 yeux dorés et saphirs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je fais frémir mes plumes pour créer un bruissement mélodique."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Vénéré en Inde, je symbolise l'immortalité et la beauté."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Chaque pas est un spectacle royal pour les yeux."
+      }
+    ]
+  },
+  {
+    "id": "penguin",
+    "name": "Le Manchot Empereur",
+    "latin": "Aptenodytes forsteri",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🐧",
+    "title": "Le Héros de l'Antarctique",
+    "habitat": "Glaces continentales et eaux de l'Antarctique",
+    "lifespan": "20 ans",
+    "speed": "30 km/h (dans l'eau)",
+    "superpower": "Résiste à -60°C et plonge à plus de 500 mètres de profondeur",
+    "color_primary": "#0F172A",
+    "color_secondary": "#F59E0B",
+    "image_file": "images/penguin.png",
+    "story": "Je suis le manchot empereur, le héros courageux des glaces du pôle Sud. J'affronte des blizzards à moins soixante degrés en me serrant dans une tortue humaine avec mes congénères. Le père couve l'œuf unique sur ses pattes pendant deux mois entiers sans manger un seul poisson !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le manchot empereur, champion des tempêtes du Pôle Sud."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nous formons des rondes solidaires face au blizzard à -60°C."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Le père protège l'œuf sacré sur ses pattes pendant l'hiver noir."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Sous l'eau glacée, je nage comme une flèche à 500 mètres."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le triomphe de la vie au milieu des glaces éternelles."
+      }
+    ]
+  },
+  {
+    "id": "pelican",
+    "name": "Le Pélican Blanc",
+    "latin": "Pelecanus onocrotalus",
+    "category": "Oiseaux & Ciel",
+    "emoji": "🦤",
+    "title": "Le Pêcheur Aérien",
+    "habitat": "Deltas, lacs d'eau douce et lagunes d'Europe et d'Afrique",
+    "lifespan": "30 ans",
+    "speed": "50 km/h",
+    "superpower": "Poche gulaire pouvant contenir jusqu'à 13 litres d'eau",
+    "color_primary": "#F8FAFC",
+    "color_secondary": "#F97316",
+    "image_file": "images/pelican.png",
+    "story": "Je suis le grand pélican blanc, maître de la pêche en escadron. Sous mon immense bec s'étire une poche élastique capable de contenir treize litres d'eau et de poissons ! En volant en formation en V au ras des vagues, nous économisons notre énergie sur des milliers de kilomètres.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le grand pélican blanc, maître pêcheur des grands deltas."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma poche élastique peut contenir treize litres d'eau et de poissons !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous pêchons en équipe en encerclant les bancs de poissons."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos formations en V fendent le ciel avec synchronisation."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'esprit de groupe fait notre force légendaire."
+      }
+    ]
+  },
+  {
+    "id": "wolf",
+    "name": "Le Loup Gris",
+    "latin": "Canis lupus",
+    "category": "Forêts & Bois",
+    "emoji": "🐺",
+    "title": "L'Âme de la Meute",
+    "habitat": "Taïga, forêts boréales et montagnes du Nord",
+    "lifespan": "12 ans",
+    "speed": "60 km/h",
+    "superpower": "Endurance incroyable et hurlement synchronisé de meute",
+    "color_primary": "#64748B",
+    "color_secondary": "#1E293B",
+    "image_file": "images/wolf.png",
+    "story": "Je suis le loup gris, gardien mythique de la forêt boréale. Mon hurlement sous la pleine lune n'est pas un cri d'effroi, mais un chant d'amour et de ralliement pour ma meute. Unis par des liens familiaux indéfectibles, nous parcourons des centaines de kilomètres dans la neige fraîche.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le loup gris, gardien mythique de la forêt boréale."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon hurlement sous l'aurore boréale rassemble ma famille."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "La loyauté de la meute est notre plus grand trésor."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dans la neige immaculée, nos traces écrivent l'histoire."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "L'esprit sauvage et libre respire à travers nous."
+      }
+    ]
+  },
+  {
+    "id": "fox",
+    "name": "Le Renard Roux",
+    "latin": "Vulpes vulpes",
+    "category": "Forêts & Bois",
+    "emoji": "🦊",
+    "title": "Le Rusé Forestier",
+    "habitat": "Forêts, campagnes et lisières de l'hémisphère nord",
+    "lifespan": "8 ans",
+    "speed": "50 km/h",
+    "superpower": "Saut en cloche guidé par le champ magnétique terrestre",
+    "color_primary": "#EA580C",
+    "color_secondary": "#78350F",
+    "image_file": "images/fox.png",
+    "story": "Moi, le renard roux, je suis le petit prince malin des sous-bois. En hiver, j'utilise le champ magnétique terrestre pour calculer la trajectoire exacte de mes bonds aériens et plonger la tête la première dans la neige sur ma proie. Ma magnifique queue rousse me sert d'écharpe chaude.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le renard roux, je suis le virtuose malin des sous-bois."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "J'utilise le magnétisme de la Terre pour guider mes bonds dans la neige !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma queue panachée me réchauffe pendant les nuits de givre."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon intelligence me permet de m'adapter à tous les milieux."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un brin de malice illumine mon regard doré."
+      }
+    ]
+  },
+  {
+    "id": "bear",
+    "name": "L'Ours Brun Grizzly",
+    "latin": "Ursus arctos",
+    "category": "Forêts & Bois",
+    "emoji": "🐻",
+    "title": "La Force Tranquille",
+    "habitat": "Forêts de conifères et rivières sauvages d'Alaska",
+    "lifespan": "25 ans",
+    "speed": "55 km/h",
+    "superpower": "Odorat 7 fois supérieur à celui du chien de Saint-Hubert",
+    "color_primary": "#78350F",
+    "color_secondary": "#3F2C1D",
+    "image_file": "images/bear.png",
+    "story": "Je suis le grizzly, colosse protecteur des grandes forêts du Nord. Mon odorat surpuissant peut détecter un saumon remontant la rivière à plus de trente kilomètres. Pendant l'hiver, je dors dans ma tanière douillette sans perdre ma masse musculaire. Je suis la force tranquille de la nature.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le grizzly, colosse protecteur des rivières sauvages."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon odorat surpuissant sent un saumon à trente kilomètres."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'attrape les poissons bondissants au vol dans les cascades."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Durant l'hiver, j'hiberne en paix dans ma tanière secrète."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La majesté des grands espaces vibre dans mon cœur."
+      }
+    ]
+  },
+  {
+    "id": "deer",
+    "name": "Le Cerf Élaphe",
+    "latin": "Cervus elaphus",
+    "category": "Forêts & Bois",
+    "emoji": "🦌",
+    "title": "Le Seigneur des Bois",
+    "habitat": "Grands massifs forestiers tempérés d'Europe",
+    "lifespan": "15 ans",
+    "speed": "65 km/h",
+    "superpower": "Bois majestueux repoussant chaque année jusqu'à 15 kg",
+    "color_primary": "#92400E",
+    "color_secondary": "#15803D",
+    "image_file": "images/deer.png",
+    "story": "Je suis le cerf élaphe, le grand monarque couronné des forêts de chênes. À l'automne, mon brame résonne dans la brume matinale pour affirmer ma présence. Chaque année, ma ramure de bois repousse plus imposante et noble. Je marche d'un pas fier sous les cathédrales de feuilles.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le cerf élaphe, le monarque couronné de la forêt."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon brame automnal fait frissonner la brume des matins d'or."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes bois majestueux repoussent chaque printemps avec vigueur."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je veille sur la harde avec vigilance et noblesse."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le silence respectueux des bois accompagne mes pas."
+      }
+    ]
+  },
+  {
+    "id": "squirrel",
+    "name": "L'Écureuil Roux",
+    "latin": "Sciurus vulgaris",
+    "category": "Forêts & Bois",
+    "emoji": "🐿️",
+    "title": "L'Acrobate des Cimes",
+    "habitat": "Forêts de pins et parcs boisés",
+    "lifespan": "7 ans",
+    "speed": "20 km/h",
+    "superpower": "Plante des milliers d'arbres en oubliant ses cachettes de noisettes",
+    "color_primary": "#D97706",
+    "color_secondary": "#166534",
+    "image_file": "images/squirrel.png",
+    "story": "Moi, le petit écureuil roux, je suis le grand planteur anonyme de forêts ! En cachant des milliers de noisettes et de glands pour l'hiver que j'oublie parfois, je donne naissance à de nouveaux chênes et noisetiers. Mes bonds vertigineux entre les branches défient la gravité.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le petit écureuil roux, je suis le héros forestier !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "En cachant mes noisettes, je plante sans le savoir des milliers d'arbres."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma queue en panache sert de parachute lors de mes grands sauts."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je bondis de cime en cime avec une agilité sans pareille."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La forêt entière me remercie pour ma vivacité."
+      }
+    ]
+  },
+  {
+    "id": "hedgehog",
+    "name": "Le Hérisson d'Europe",
+    "latin": "Erinaceus europaeus",
+    "category": "Forêts & Bois",
+    "emoji": "🦔",
+    "title": "Le Petit Cuirassé",
+    "habitat": "Jardins, haies et lisières forestières",
+    "lifespan": "5 ans",
+    "speed": "6 km/h",
+    "superpower": "Armure protectrice de plus de 6000 piquants acérés",
+    "color_primary": "#78350F",
+    "color_secondary": "#15803D",
+    "image_file": "images/hedgehog.png",
+    "story": "Je suis le hérisson d'Europe, le gardien bienveillant de vos jardins. Mon dos est protégé par plus de six mille épines robustes. Au moindre danger, je me roule en une boule impénétrable. La nuit, je croque avec gourmandise limaces et escargots pour protéger vos potagers.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le hérisson d'Europe, le meilleur ami du jardinier."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon armure de 6000 piquants me protège de tout prédateur."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je me roule en boule parfaite au premier souffle suspect."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "La nuit, je régule les limaces et insectes avec appétit."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un petit cœur courageux sous un manteau d'épines."
+      }
+    ]
+  },
+  {
+    "id": "raccoon",
+    "name": "Le Raton Laveur",
+    "latin": "Procyon lotor",
+    "category": "Forêts & Bois",
+    "emoji": "🦝",
+    "title": "Le Petit Masqué",
+    "habitat": "Forêts ripariennes et zones boisées d'Amérique",
+    "lifespan": "10 ans",
+    "speed": "24 km/h",
+    "superpower": "Pattes avant d'une sensibilité tactile extraordinaire dans l'eau",
+    "color_primary": "#475569",
+    "color_secondary": "#0F172A",
+    "image_file": "images/raccoon.png",
+    "story": "Moi, le raton laveur, je porte fièrement mon masque noir de bandit bienveillant ! Mes petites pattes avant ont une sensibilité tactile prodigieuse : en les trempant dans l'eau, mes récepteurs s'activent pour analyser chaque nourriture. Rien n'échappe à ma curiosité légendaire.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le raton laveur, j'arbore mon masque d'aventurier nocturne !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes pattes ultra-sensibles 'voient' le monde au toucher dans l'eau."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'ouvre les serrures et résous les énigmes avec malice."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Grimpeur émérite, je visite la forêt au clair de lune."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La curiosité est mon super-pouvoir préféré."
+      }
+    ]
+  },
+  {
+    "id": "badger",
+    "name": "Le Blaireau Européen",
+    "latin": "Meles meles",
+    "category": "Forêts & Bois",
+    "emoji": "🦡",
+    "title": "L'Architecte Souterrain",
+    "habitat": "Grands réseaux de terriers forestiers",
+    "lifespan": "14 ans",
+    "speed": "30 km/h",
+    "superpower": "Création de forteresses souterraines occupées depuis des siècles",
+    "color_primary": "#334155",
+    "color_secondary": "#CBD5E1",
+    "image_file": "images/badger.png",
+    "story": "Je suis le blaireau, l'infatigable architecte du sous-sol. Mes terriers familiaux sont de véritables châteaux souterrains à plusieurs étages, transmis de génération en génération depuis des centaines d'années ! Avec mes griffes puissantes, je creuse sans relâche pour ma maisonnée.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le blaireau, grand bâtisseur des cités souterraines."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nos réseaux de terriers se transmettent depuis des siècles."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes griffes d'acier creusent la terre avec une force inouïe."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Propre et méticuleux, je change la litière de feuilles souvent."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La tranquillité de la terre nourrit mon foyer."
+      }
+    ]
+  },
+  {
+    "id": "wild_boar",
+    "name": "Le Sanglier",
+    "latin": "Sus scrofa",
+    "category": "Forêts & Bois",
+    "emoji": "🐗",
+    "title": "Le Guerrier des Sous-Bois",
+    "habitat": "Chênaies et forêts denses d'Eurasie",
+    "lifespan": "12 ans",
+    "speed": "45 km/h",
+    "superpower": "Groin ultra-puissant capable de retourner des tonnes de terre",
+    "color_primary": "#451A03",
+    "color_secondary": "#166534",
+    "image_file": "images/wild_boar.png",
+    "story": "Je suis le sanglier, la force brute et courageuse des bois. Mon groin puissant aère la terre et permet aux graines d'arbres de germer. Mes défenses affûtées me défendent contre les plus féroces prédateurs. En harde soudée, nous traversons les buissons d'épines comme des cuirassiers.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le sanglier, le guerrier infatigable des taillis."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon groin laboure le sol pour régénérer la flore forestière."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes défenses acérées protègent mes marcassins adorés."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Rien n'arrête la charge d'une compagnie solidaire."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La vigueur de la terre sauvage coule dans mes veines."
+      }
+    ]
+  },
+  {
+    "id": "beaver",
+    "name": "Le Castor d'Europe",
+    "latin": "Castor fiber",
+    "category": "Forêts & Bois",
+    "emoji": "🦫",
+    "title": "L'Ingénieur des Rivières",
+    "habitat": "Cours d'eau calmes et zones humides",
+    "lifespan": "15 ans",
+    "speed": "8 km/h (dans l'eau)",
+    "superpower": "Dents orange enrichies en fer et création de zones humides",
+    "color_primary": "#92400E",
+    "color_secondary": "#0284C7",
+    "image_file": "images/beaver.png",
+    "story": "Moi, le castor, je suis le plus grand ingénieur de la nature ! En construisant des barrages de bois avec mes dents renforcées en fer, je crée des zones humides qui sauvent des centaines d'espèces de poissons et d'oiseaux. Ma queue plate me sert de gouvernail et d'alarme sonore.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le castor, je suis l'architecte bienfaiteur des rivières !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes dents orange enrichies en fer abattent les troncs avec brio."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes barrages créent des oasis de biodiversité miraculeuses."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je tape de la queue sur l'eau pour avertir toute ma famille."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'eau pure chante au rythme de mes constructions."
+      }
+    ]
+  },
+  {
+    "id": "lynx",
+    "name": "Le Lynx Boréal",
+    "latin": "Lynx lynx",
+    "category": "Forêts & Bois",
+    "emoji": "🐱",
+    "title": "Le Fantôme Enneigé",
+    "habitat": "Forêts d'altitude et taïga scandinave",
+    "lifespan": "17 ans",
+    "speed": "65 km/h",
+    "superpower": "Larges pattes raquettes pour courir sur la poudreuse",
+    "color_primary": "#CA8A04",
+    "color_secondary": "#E2E8F0",
+    "image_file": "images/lynx.png",
+    "story": "Je suis le lynx boréal, l'apparition mystique des montagnes enneigées. Mes larges pattes velues agissent comme des raquettes naturelles pour glisser sur la neige fraîche sans m'enfoncer. Les pinceaux noirs sur mes oreilles affinent mon ouïe pour déceler le moindre frémissement.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le lynx boréal, l'ombre féline des cimes enneigées."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes pattes raquettes me font voler sur la neige profonde."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes pinceaux auriculaires captent les bruits les plus discrets."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon regard perçant traverse la blancheur des sapins."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un souffle de mystère au sommet de la taïga."
+      }
+    ]
+  },
+  {
+    "id": "moose",
+    "name": "L'Élan / Orignal",
+    "latin": "Alces alces",
+    "category": "Forêts & Bois",
+    "emoji": "🫎",
+    "title": "Le Colosse Boréal",
+    "habitat": "Forêts boréales et marécages du Grand Nord",
+    "lifespan": "15 ans",
+    "speed": "55 km/h",
+    "superpower": "Capacité à plonger à 5 mètres pour brouter des plantes aquatiques",
+    "color_primary": "#573010",
+    "color_secondary": "#0D9488",
+    "image_file": "images/moose.png",
+    "story": "Je suis l'élan, le géant impressionnant de la forêt nordique. Mes bois palmés peuvent dépasser deux mètres d'envergure. Champion de natation inattendu, je peux plonger jusqu'à cinq mètres de profondeur pour brouter de délicieuses plantes aquatiques au fond des lacs froids.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'élan, le géant couronné des forêts du Grand Nord."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes bois palmés impressionnants dominent les sapinières."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je plonge sous l'eau à 5 mètres pour brouter les nénuphars."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes longues pattes franchissent sans peine les marais profonds."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La grandeur sauvage de l'Arctique m'appartient."
+      }
+    ]
+  },
+  {
+    "id": "tawny_owl",
+    "name": "La Chouette Hulotte",
+    "latin": "Strix aluco",
+    "category": "Forêts & Bois",
+    "emoji": "🦉",
+    "title": "La Sentinelle des Chênes",
+    "habitat": "Vieux chênes et parcs boisés d'Europe",
+    "lifespan": "18 ans",
+    "speed": "50 km/h",
+    "superpower": "Oreilles asymétriques pour localisation tridimensionnelle du son",
+    "color_primary": "#78350F",
+    "color_secondary": "#1E293B",
+    "image_file": "images/tawny_owl.png",
+    "story": "Je suis la chouette hulotte, la voix envoûtante de la nuit forestière. Mes oreilles sont placées de manière asymétrique sur mon crâne, ce qui me permet de calculer la hauteur et la distance d'un son avec une précision mathématique totale. Je suis la gardienne des vieux arbres.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la chouette hulotte, la douce voix des sous-bois sombres."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes oreilles asymétriques localisent le son en 3 dimensions !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je niche au creux des vieux chênes séculaires avec mes petits."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon chant mélancolique apaise la nuit étoilée."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'harmonie nocturne renaît sous mes ailes veloutées."
+      }
+    ]
+  },
+  {
+    "id": "otter",
+    "name": "La Loutre d'Europe",
+    "latin": "Lutra lutra",
+    "category": "Forêts & Bois",
+    "emoji": "🦦",
+    "title": "La Nageuse Joyeuse",
+    "habitat": "Rivières pures et zones côtières",
+    "lifespan": "10 ans",
+    "speed": "12 km/h (dans l'eau)",
+    "superpower": "Fourrure la plus dense du monde avec 100 000 poils par cm²",
+    "color_primary": "#854D0E",
+    "color_secondary": "#0284C7",
+    "image_file": "images/otter.png",
+    "story": "Moi, la loutre, je suis la reine de la joie de vivre au fil de l'eau ! Ma fourrure imperméable possède jusqu'à cent mille poils par centimètre carré pour me garder toujours au sec et au chaud. J'adore faire des glissades sur la boue et jouer avec mes amis dans les rivières cristallines.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, la loutre, je suis l'étoile filante des rivières pures !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma fourrure ultra-dense repousse l'eau et retient la chaleur."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "J'adore faire des toboggans sur les berges herbeuses."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes moustaches sensibles détectent les poissons sous les galets."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le bonheur coule dans chaque onde de cristal."
+      }
+    ]
+  },
+  {
+    "id": "elephant",
+    "name": "L'Éléphant d'Afrique",
+    "latin": "Loxodonta africana",
+    "category": "Grands Mammifères",
+    "emoji": "🐘",
+    "title": "La Mémoire du Monde",
+    "habitat": "Savanes et forêts denses d'Afrique",
+    "lifespan": "60 à 70 ans",
+    "speed": "40 km/h",
+    "superpower": "Trompe dotée de 40 000 muscles et mémoire prodigieuse",
+    "color_primary": "#64748B",
+    "color_secondary": "#D97706",
+    "image_file": "images/elephant.png",
+    "story": "Je suis l'éléphant d'Afrique, le plus grand géant terrestre de notre planète. Ma trompe est une merveille biologique comptant plus de quarante mille muscles. Nous possédons une mémoire exceptionnelle qui se souvient des routes de migration et des amis perdus pendant des décennies. La famille est sacrée pour nous.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'éléphant d'Afrique, géant au cœur infiniment noble."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma trompe prodigieuse possède plus de quarante mille muscles !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Notre mémoire légendaire n'oublie jamais un visage aimé."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous ressentons les infrasons à travers la plante de nos pieds."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "L'amour et la sagesse guident notre troupeau éternel."
+      }
+    ]
+  },
+  {
+    "id": "rhino",
+    "name": "Le Rhinocéros Blanc",
+    "latin": "Ceratotherium simum",
+    "category": "Grands Mammifères",
+    "emoji": "🦏",
+    "title": "Le Bouclier Préhistorique",
+    "habitat": "Savanes herbeuses d'Afrique australe",
+    "lifespan": "45 ans",
+    "speed": "50 km/h",
+    "superpower": "Armure de peau de 5 cm et corne de kératine pure",
+    "color_primary": "#475569",
+    "color_secondary": "#B45309",
+    "image_file": "images/rhino.png",
+    "story": "Je suis le rhinocéros blanc, héritier bienveillant de la préhistoire. Malgré mes deux tonnes et demie, je peux courir à cinquante kilomètres à l'heure quand je suis surpris ! Ma corne est faite de kératine pure, la même matière que vos ongles. Je broute paisiblement sous le soleil d'Afrique.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le rhinocéros blanc, gardien venu de la préhistoire."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes 2 tonnes et demie sprintent à cinquante kilomètres par heure !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma corne légendaire est en réalité de pure kératine."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes bains de boue protègent ma peau du soleil ardent."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La paix des plaines est mon vœu le plus cher."
+      }
+    ]
+  },
+  {
+    "id": "hippopotamus",
+    "name": "L'Hippopotame",
+    "latin": "Hippopotamus amphibius",
+    "category": "Grands Mammifères",
+    "emoji": "🦛",
+    "title": "La Force du Fleuve",
+    "habitat": "Rivières et lacs d'Afrique subsaharienne",
+    "lifespan": "40 ans",
+    "speed": "30 km/h",
+    "superpower": "Sueurs rouges naturelles servant d'écran solaire antibactérien",
+    "color_primary": "#57534E",
+    "color_secondary": "#0284C7",
+    "image_file": "images/hippopotamus.png",
+    "story": "Je suis l'hippopotame, maître incontesté des eaux douces africaines. Ma peau sécrète un fluide rouge naturel qui agit comme un écran solaire et un désinfectant surpuissant ! Sous l'eau, je ne nage pas vraiment : je cours et bondis gracieusement au fond de la rivière.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'hippopotame, le souverain imposant des fleuves."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma peau sécrète un fluide rouge qui est un écran solaire naturel !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Sous l'eau, je cours et bondis avec une légèreté surprenante."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "La nuit tombée, je parcours les berges pour brouter l'herbe fraîche."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le fleuve puissant s'incline devant ma force."
+      }
+    ]
+  },
+  {
+    "id": "giraffe",
+    "name": "La Girafe",
+    "latin": "Giraffa camelopardalis",
+    "category": "Grands Mammifères",
+    "emoji": "🦒",
+    "title": "La Sentinelle des Nuages",
+    "habitat": "Savanes arborées d'acacias",
+    "lifespan": "25 ans",
+    "speed": "55 km/h",
+    "superpower": "Langue bleue de 50 cm et cœur de 11 kg pompant à haute pression",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#78350F",
+    "image_file": "images/giraffe.png",
+    "story": "Je suis la girafe, le plus grand animal de toute la Création avec mes près de six mètres de hauteur ! Ma langue bleue foncée mesure cinquante centimètres et contourne facilement les épines des acacias. De là-haut, je veille sur tous mes compagnons de la savane.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la girafe, la sentinelle élégante qui touche le ciel !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma langue bleue de 50 cm attrape les feuilles sans se piquer."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon cœur de 11 kg pompe le sang jusqu'au sommet de mon cou."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes taches géométriques sont uniques comme des empreintes digitales."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Je contemple l'horizon avec calme et sérénité."
+      }
+    ]
+  },
+  {
+    "id": "zebra",
+    "name": "Le Zèbre de Burchell",
+    "latin": "Equus quagga",
+    "category": "Grands Mammifères",
+    "emoji": "🦓",
+    "title": "L'Illusionniste Rayé",
+    "habitat": "Plaines herbeuses d'Afrique orientale",
+    "lifespan": "25 ans",
+    "speed": "65 km/h",
+    "superpower": "Rayures uniques créant une illusion d'optique contre les prédateurs",
+    "color_primary": "#0F172A",
+    "color_secondary": "#F8FAFC",
+    "image_file": "images/zebra.png",
+    "story": "Moi, le zèbre, je porte le costume le plus emblématique de la savane. En courant tous ensemble serrés, nos rayures noires et blanches créent un effet d'optique troublant qui désoriente les lions ! Chaque zèbre possède un motif de rayures unique au monde.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le zèbre, je suis le virtuose du noir et blanc !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nos rayures créent une illusion d'optique face aux prédateurs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Chaque motif est unique, comme un code-barres de la nature."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "En troupeaux unis, nous galopons vers les pâturages verts."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le rythme sauvage de nos sabots fait vibrer la terre."
+      }
+    ]
+  },
+  {
+    "id": "bison",
+    "name": "Le Bison d'Amérique",
+    "latin": "Bison bison",
+    "category": "Grands Mammifères",
+    "emoji": "🦬",
+    "title": "L'Esprit des Grandes Plaines",
+    "habitat": "Grandes plaines et vallées nord-américaines",
+    "lifespan": "20 ans",
+    "speed": "55 km/h",
+    "superpower": "Capacité à affronter les tempêtes de neige de face",
+    "color_primary": "#451A03",
+    "color_secondary": "#B45309",
+    "image_file": "images/bison.png",
+    "story": "Je suis le bison d'Amérique, symbole sacré de courage et de résistance. Quand la tempête de neige fait rage, nous sommes les seuls animaux à marcher directement face au vent pour la traverser plus vite ! Notre épais manteau de laine nous protège des froids les plus extrêmes.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le bison d'Amérique, l'âme sacrée des grandes prairies."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Face au blizzard, nous avançons droit vers la tempête avec fierté."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma toison dense de laine me rend invincible au gel."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos sabots faisaient jadis trembler le continent entier."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La persévérance est notre loi fondamentale."
+      }
+    ]
+  },
+  {
+    "id": "buffalo",
+    "name": "Le Buffle du Cap",
+    "latin": "Syncerus caffer",
+    "category": "Grands Mammifères",
+    "emoji": "🐂",
+    "title": "L'Indomptable Guerrier",
+    "habitat": "Savanes denses et marais africains",
+    "lifespan": "20 ans",
+    "speed": "55 km/h",
+    "superpower": "Casque frontal de cornes osseuses ultra-solide",
+    "color_primary": "#1C1917",
+    "color_secondary": "#78716C",
+    "image_file": "images/buffalo.png",
+    "story": "Je suis le buffle du Cap, l'un des colosses les plus redoutés de la faune africaine. Mes cornes forment un casque osseux protecteur presque impénétrable. En cas de menace sur un petit, tout le troupeau fait bloc pour charger en première ligne.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le buffle du Cap, la force inébranlable du continent noir."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon casque de cornes massives brise toutes les attaques."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous protégeons nos petits en formant un mur défensif impénétrable."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Notre courage collectif ne recule devant aucun péril."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La solidarité est notre bouclier ultime."
+      }
+    ]
+  },
+  {
+    "id": "okapi",
+    "name": "L'Okapi",
+    "latin": "Okapia johnstoni",
+    "category": "Grands Mammifères",
+    "emoji": "🦓",
+    "title": "Le Trésor Secret du Congo",
+    "habitat": "Forêt équatoriale de l'Ituri (RDC)",
+    "lifespan": "25 ans",
+    "speed": "60 km/h",
+    "superpower": "Cousin secret de la girafe avec rayures de zèbre et langue de 40 cm",
+    "color_primary": "#451A03",
+    "color_secondary": "#F8FAFC",
+    "image_file": "images/okapi.png",
+    "story": "Moi, l'okapi, je suis le trésor secret le plus mystérieux de la forêt congolaise. Bien que mon arrière-train porte des rayures de zèbre, je suis en réalité le seul cousin vivant de la girafe ! Ma longue langue bleuâtre peut même nettoyer mes propres paupières et oreilles.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, l'okapi, je suis la licorne vivante de la forêt de l'Ituri."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Je combine l'élégance de la girafe et le motif du zèbre."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma langue préhensile nettoie mes yeux et attrape les feuilles."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Discret et timide, je préserve les secrets de la canopée."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un miracle caché au cœur de l'Afrique sauvage."
+      }
+    ]
+  },
+  {
+    "id": "gazelle",
+    "name": "La Gazelle de Thomson",
+    "latin": "Eudorcas thomsonii",
+    "category": "Grands Mammifères",
+    "emoji": "🦌",
+    "title": "La Danseuse de la Savane",
+    "habitat": "Grandes plaines du Serengeti et Masai Mara",
+    "lifespan": "12 ans",
+    "speed": "80 km/h",
+    "superpower": "Pronking : sauts verticaux spectaculaires à 2 mètres",
+    "color_primary": "#D97706",
+    "color_secondary": "#0F172A",
+    "image_file": "images/gazelle.png",
+    "story": "Je suis la gazelle de Thomson, la danseuse gracile des plaines d'or. Pour décourager les guépards, j'effectue le pronking : des bonds spectaculaires à pattes raides à plus de deux mètres de hauteur ! Mon endurance et ma vivacité me permettent d'enchaîner les zigzags à pleine vitesse.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la gazelle de Thomson, la danseuse agile du Serengeti."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes bonds vertigineux montrent ma vigueur aux prédateurs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je zigzag à 80 km/h pour déjouer les poursuites les plus folles."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Légère comme le vent, j'effleure à peine les herbes hautes."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La beauté du mouvement s'exprime dans ma course."
+      }
+    ]
+  },
+  {
+    "id": "wildebeest",
+    "name": "Le Gnou Bleu",
+    "latin": "Connochaetes taurinus",
+    "category": "Grands Mammifères",
+    "emoji": "🐂",
+    "title": "Le Grand Voyageur",
+    "habitat": "Plaines ouvertes et savanes d'Afrique de l'Est",
+    "lifespan": "20 ans",
+    "speed": "80 km/h",
+    "superpower": "Grande migration annuelle de 1,5 million d'individus sur 3 000 km",
+    "color_primary": "#475569",
+    "color_secondary": "#B45309",
+    "image_file": "images/wildebeest.png",
+    "story": "Je suis le gnou bleu, protagoniste de la plus grande migration animale de notre planète. Par millions, nous traversons la terrible rivière Mara bravant les crocodiles pour suivre les pluies bienfaitrices. Les bébés gnous savent courir à côté de leur mère quelques minutes seulement après leur naissance !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le gnou bleu, le héros de la grande migration millénaire."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Un million et demi de compagnons marchent à mes côtés."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nos bébés courent dès la première heure de leur vie !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous traversons les fleuves déchaînés pour suivre la pluie."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La flamme de la vie ne s'éteint jamais."
+      }
+    ]
+  },
+  {
+    "id": "chimpanzee",
+    "name": "Le Chimpanzé",
+    "latin": "Pan troglodytes",
+    "category": "Jungle & Primates",
+    "emoji": "🐒",
+    "title": "Le Frère des Arbres",
+    "habitat": "Forêts tropicales d'Afrique centrale et occidentale",
+    "lifespan": "45 ans",
+    "speed": "40 km/h",
+    "superpower": "98,7% d'ADN commun avec l'homme et usage avancé d'outils",
+    "color_primary": "#1E293B",
+    "color_secondary": "#15803D",
+    "image_file": "images/chimpanzee.png",
+    "story": "Je suis le chimpanzé, votre plus proche cousin du règne animal avec plus de 98% d'ADN partagé ! Nous fabriquons des bâtons pour pêcher les termites, utilisons des pierres pour casser des noix et nous soignons avec des plantes médicinales. La tendresse et les rires illuminent notre communauté.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le chimpanzé, votre frère de sang de la grande forêt."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nous fabriquons des outils et utilisons des pierres à casser."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nos rires et nos accolades expriment nos sentiments profonds."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous connaissons les vertus guérisseuses de chaque plante."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le respect de la vie nous unit pour toujours."
+      }
+    ]
+  },
+  {
+    "id": "gorilla",
+    "name": "Le Gorille de Montagne",
+    "latin": "Gorilla beringei beringei",
+    "category": "Jungle & Primates",
+    "emoji": "🦍",
+    "title": "Le Doux Géant d'Argent",
+    "habitat": "Forêts volcaniques des Virunga (Rwanda, RDC, Ouganda)",
+    "lifespan": "40 ans",
+    "speed": "40 km/h",
+    "superpower": "Force herculéenne alliée à une extrême douceur protectrice",
+    "color_primary": "#0F172A",
+    "color_secondary": "#94A3B8",
+    "image_file": "images/gorilla.png",
+    "story": "Je suis le gorille dos argenté, le sage protecteur des volcans brumeux des Virunga. Malgré ma musculature colossale capable de soulever des centaines de kilos, je suis un géant pacifique et végétarien. Avec une infinie tendresse, je veille sur les bébés et la sérénité de ma famille.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le gorille au dos argenté, patriarche des volcans brumeux."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma force herculéenne n'a d'égale que ma douceur infinie."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Végétarien paisible, je me nourris de pousses de bambou."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes enfants jouent en sécurité sous mon regard bienveillant."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La paix et la dignité régnent sur notre montagne."
+      }
+    ]
+  },
+  {
+    "id": "orangutan",
+    "name": "L'Orang-outan",
+    "latin": "Pongo pygmaeus",
+    "category": "Jungle & Primates",
+    "emoji": "🦧",
+    "title": "Le Sage de la Canopée",
+    "habitat": "Forêts tropicales humides de Bornéo et Sumatra",
+    "lifespan": "45 ans",
+    "speed": "15 km/h",
+    "superpower": "Envergure de bras de plus de 2 mètres et mémoire botanique",
+    "color_primary": "#C2410C",
+    "color_secondary": "#166534",
+    "image_file": "images/orangutan.png",
+    "story": "Je suis l'orang-outan, l'homme de la forêt en langue malaise. Je passe la quasi-totalité de ma vie dans les hauteurs de la canopée, construisant chaque soir un nouveau nid douillet de branchages. Mes bras immenses de plus de deux mètres me balancent d'arbre en arbre avec poésie.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'orang-outan, l'homme sage des forêts de Bornéo."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes bras immenses de deux mètres m'élèvent vers la lumière."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Chaque soir, je tisse un nid douillet au sommet de la canopée."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je connais l'emplacement de chaque arbre fruitier de la jungle."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Protégeons ensemble le poumon vert de notre monde."
+      }
+    ]
+  },
+  {
+    "id": "panda",
+    "name": "Le Panda Géant",
+    "latin": "Ailuropoda melanoleuca",
+    "category": "Jungle & Primates",
+    "emoji": "🐼",
+    "title": "Le Gardien du Bambou",
+    "habitat": "Montagnes brumeuses du Sichuan (Chine)",
+    "lifespan": "20 à 30 ans",
+    "speed": "20 km/h",
+    "superpower": "Faux pouce opposable et mâchoire broyant le bambou le plus dur",
+    "color_primary": "#0F172A",
+    "color_secondary": "#F8FAFC",
+    "image_file": "images/panda.png",
+    "story": "Moi, le panda géant, je suis le symbole universel de paix et de protection de la nature. Mon sixième doigt, un faux pouce spécialisé, me permet de saisir délicatement les tiges de bambou. Je passe douze heures par jour à grignoter paisiblement dans la brume mystique des monts de Chine.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le panda géant, je suis l'ambassadeur mondial de la paix."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon faux pouce unique me permet de tenir les tiges de bambou."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je savoure douze heures de gourmandise chaque jour."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Dans les brumes du Sichuan, je mène une vie de sérénité."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "La douceur et la tendresse réchauffent tous les cœurs."
+      }
+    ]
+  },
+  {
+    "id": "lemur",
+    "name": "Le Lémurien Maki Catta",
+    "latin": "Lemur catta",
+    "category": "Jungle & Primates",
+    "emoji": "🐒",
+    "title": "Le Prince de Madagascar",
+    "habitat": "Forêts épineuses et galeries de Madagascar",
+    "lifespan": "18 ans",
+    "speed": "25 km/h",
+    "superpower": "Queue rayée de 13 anneaux noirs et culte du soleil matinal",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#1E293B",
+    "image_file": "images/lemur.png",
+    "story": "Je suis le maki catta, l'illustre ambassadeur de l'île de Madagascar ! Chaque matin, nous nous asseyons en posture de lotus, bras écartés face au soleil pour réchauffer notre ventre. Ma longue queue rayée de treize anneaux noirs et blancs me sert de drapeau de ralliement.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le maki catta, prince espiègle de l'île de Madagascar !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Chaque matin, nous saluons le soleil les bras ouverts en lotus."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma queue aux treize anneaux rayés danse dans les baobabs."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos troupes unies partagent des moments de tendresse infinie."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La joie de vivre malgache palpite dans notre cœur."
+      }
+    ]
+  },
+  {
+    "id": "sloth",
+    "name": "Le Paresseux Tridactyle",
+    "latin": "Bradypus tridactylus",
+    "category": "Jungle & Primates",
+    "emoji": "🦥",
+    "title": "L'Éloge de la Lenteur",
+    "habitat": "Forêts tropicales d'Amérique centrale et du Sud",
+    "lifespan": "20 ans",
+    "speed": "0.25 km/h",
+    "superpower": "Écosystème miniature abritant des algues et métabolisme zen",
+    "color_primary": "#78350F",
+    "color_secondary": "#15803D",
+    "image_file": "images/sloth.png",
+    "story": "Moi, le paresseux, je suis le maître absolu de la pleine conscience et du calme ! Dans mon pelage pousse une micro-algue verte qui me nourrit et me camoufle. Suspendu aux branches par mes trois longues griffes crochues, je savoure chaque seconde sans le moindre stress.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le paresseux, je vous enseigne l'art de vivre sans hâte !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon pelage abrite une algue verte qui me fond dans les feuilles."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Accroché par mes griffes d'or, je contemple le ciel avec le sourire."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je suis un champion de natation quand je plonge dans le fleuve."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Prenez le temps d'apprécier la beauté de chaque instant."
+      }
+    ]
+  },
+  {
+    "id": "chameleon",
+    "name": "Le Caméléon Panthère",
+    "latin": "Furcifer pardalis",
+    "category": "Jungle & Primates",
+    "emoji": "🦎",
+    "title": "Le Magicien des Couleurs",
+    "habitat": "Arbres et buissons côtiers de Madagascar",
+    "lifespan": "7 ans",
+    "speed": "3 km/h",
+    "superpower": "Yeux télescopiques à 360° et langue catapultée à 20 km/h",
+    "color_primary": "#10B981",
+    "color_secondary": "#8B5CF6",
+    "image_file": "images/chameleon.png",
+    "story": "Je suis le caméléon panthère, l'artiste métamorphique des feuillages. Mes yeux pivotent indépendamment l'un de l'autre pour surveiller tout mon environnement à 360 degrés. En une fraction de seconde, je projette ma langue gluante plus loin que la longueur de mon corps pour capturer ma pitance !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le caméléon, magicien flamboyant de la couleur !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes yeux indépendants surveillent l'espace à 360 degrés."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma langue ressort foudroyante attrape sa cible en un éclair."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je change de teinte selon mes émotions et la température."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'émerveillement des teintes s'incarne dans mes écailles."
+      }
+    ]
+  },
+  {
+    "id": "anaconda",
+    "name": "L'Anaconda Vert",
+    "latin": "Eunectes murinus",
+    "category": "Jungle & Primates",
+    "emoji": "🐍",
+    "title": "Le Serpent Titan",
+    "habitat": "Marécages et fleuves calmes d'Amazonie",
+    "lifespan": "30 ans",
+    "speed": "20 km/h (dans l'eau)",
+    "superpower": "Le serpent le plus lourd du monde (jusqu'à 250 kg) et apnée de 45 min",
+    "color_primary": "#15803D",
+    "color_secondary": "#1E293B",
+    "image_file": "images/anaconda.png",
+    "story": "Je suis l'anaconda vert, le serpent géant le plus puissant de la planète. Dans les eaux calmes de l'Amazone, mon corps massif de huit mètres glisse avec une discrétion absolue. Mes yeux situés sur le dessus de ma tête me permettent de respirer et voir tout en restant totalement immergé.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'anaconda vert, le souverain silencieux des marécages."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Dans l'eau d'Amazonie, mes huit mètres glissent sans un bruit."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je peux retenir mon souffle sous l'eau pendant 45 minutes."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Ma force musculaire enserre la jungle de son aura mythique."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le respect des mystères de l'eau est ma signature."
+      }
+    ]
+  },
+  {
+    "id": "poison_frog",
+    "name": "La Grenouille Dendrobate",
+    "latin": "Dendrobates tinctorius",
+    "category": "Jungle & Primates",
+    "emoji": "🐸",
+    "title": "Le Joyau Venimeux",
+    "habitat": "Litière de feuilles et broméliacées des forêts d'Amazonie",
+    "lifespan": "10 ans",
+    "speed": "5 km/h",
+    "superpower": "Couleurs néon d'avertissement et toxicité issue de son alimentation",
+    "color_primary": "#3B82F6",
+    "color_secondary": "#F59E0B",
+    "image_file": "images/poison_frog.png",
+    "story": "Je suis la grenouille dendrobate, le joyau miniature aux couleurs électriques ! Mon bleu saphir et mon jaune éclatant sont un avertissement clair pour les prédateurs. Les papas dendrobates transportent affectueusement leurs têtards sur leur dos jusqu'au cœur des fleurs d'eau perchées.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la grenouille dendrobate, le joyau électrique de la jungle !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes couleurs vives préviennent les curieux de ma puissance."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Le père porte ses têtards sur son dos jusqu'aux broméliacées."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Minuscule par la taille, mais immense par la splendeur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La forêt tropicale regorge de trésors insoupçonnés."
+      }
+    ]
+  },
+  {
+    "id": "red_panda",
+    "name": "Le Panda Roux",
+    "latin": "Ailurus fulgens",
+    "category": "Jungle & Primates",
+    "emoji": "🦊",
+    "title": "La Boule de Feu Dorée",
+    "habitat": "Forêts tempérées de bambous de l'Himalaya",
+    "lifespan": "14 ans",
+    "speed": "25 km/h",
+    "superpower": "Fourrure ignifugée contre le froid et acrobaties arboricoles",
+    "color_primary": "#EA580C",
+    "color_secondary": "#78350F",
+    "image_file": "images/red_panda.png",
+    "story": "Moi, le panda roux, je suis l'adorable renard de feu des forêts de l'Himalaya ! Ma longue queue touffue ornée de douze anneaux m'enveloppe comme une couette douillette quand le vent d'altitude souffle. Je grimpe avec agilité sur les mousses des grands rhododendrons.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le panda roux, je suis la boule de tendresse de l'Himalaya !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma queue touffue me sert de couverture douillette contre le gel."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je me régale de feuilles de bambou et de baies sucrées."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes petites pattes blanches grimpent aux arbres avec félicité."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La magie des montagnes chante dans mon regard."
+      }
+    ]
+  },
+  {
+    "id": "polar_bear",
+    "name": "L'Ours Polaire",
+    "latin": "Ursus maritimus",
+    "category": "Arctique & Glaces",
+    "emoji": "🐻‍❄️",
+    "title": "Le Roi de la Banquise",
+    "habitat": "Banquises et eaux glacées de l'Arctique",
+    "lifespan": "25 à 30 ans",
+    "speed": "40 km/h (sur glace), 10 km/h (nage)",
+    "superpower": "Poils transparents et creux captant la lumière sur une peau noire",
+    "color_primary": "#E2E8F0",
+    "color_secondary": "#0284C7",
+    "image_file": "images/polar_bear.png",
+    "story": "Je suis l'ours polaire, seigneur majestueux du royaume des glaces. Saviez-vous que mes poils ne sont pas blancs mais translucides et creux ? Ils canalisent la chaleur du soleil directement sur ma peau noire qui l'absorbe. Je peux nager pendant des jours entiers dans l'eau glacée sans faiblir.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'ours polaire, souverain absolu du grand désert blanc."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes poils translucides dirigent la lumière vers ma peau noire."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je nage des centaines de kilomètres parmi les icebergs bleus."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "La banquise sacrée est mon foyer millénaire."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "Protégeons ensemble le royaume du pôle Nord."
+      }
+    ]
+  },
+  {
+    "id": "arctic_fox",
+    "name": "Le Renard Polaire",
+    "latin": "Vulpes lagopus",
+    "category": "Arctique & Glaces",
+    "emoji": "🦊",
+    "title": "L'Ombre Blanche",
+    "habitat": "Toundra et côtes de l'Arctique",
+    "lifespan": "10 ans",
+    "speed": "50 km/h",
+    "superpower": "Résiste à -70°C et change de pelage selon les saisons",
+    "color_primary": "#F8FAFC",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/arctic_fox.png",
+    "story": "Je suis le renard polaire, l'incroyable transformiste des neiges. En hiver, mon pelage devient d'une blancheur immaculée pour me fondre dans le blizzard à moins soixante-dix degrés. En été, je revêts une robe brune pour me camoufler parmi les roches et les fleurs de la toundra.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le renard polaire, l'esprit immaculé du blizzard."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon pelage change du blanc pur au brun au fil des saisons."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je supporte sans frémir des froids extrêmes à -70°C !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes petites oreilles rondes évitent toute déperdition de chaleur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La beauté boréale vit dans mon souffle d'argent."
+      }
+    ]
+  },
+  {
+    "id": "arctic_hare",
+    "name": "Le Lièvre Arctique",
+    "latin": "Lepus arcticus",
+    "category": "Arctique & Glaces",
+    "emoji": "🐇",
+    "title": "L'Éclair des Neiges",
+    "habitat": "Toundras rocheuses du Groenland et du Canada",
+    "lifespan": "5 ans",
+    "speed": "65 km/h",
+    "superpower": "Pointes de vitesse fulgurantes sur les pattes arrière comme un kangourou",
+    "color_primary": "#F1F5F9",
+    "color_secondary": "#0284C7",
+    "image_file": "images/arctic_hare.png",
+    "story": "Je suis le lièvre arctique, la flèche blanche des étendues glacées. Quand un loup s'approche, je me dresse sur mes pattes arrière et bondis à plus de soixante kilomètres à l'heure sur la neige durcie ! Mes pattes velues me portent comme de légers patins à glace.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le lièvre arctique, le bolide blanc des toundras glacées."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Je sprinte à 65 km/h en bondissant comme un éclair des neiges."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "En groupe serré, nous partageons la tiédeur face au vent glacé."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes yeux noirs scrutent l'immensité immaculée."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La légèreté triomphe de la rudesse du froid."
+      }
+    ]
+  },
+  {
+    "id": "muskox",
+    "name": "Le Bœuf Musqué",
+    "latin": "Ovibos moschatus",
+    "category": "Arctique & Glaces",
+    "emoji": "🐂",
+    "title": "Le Survivant de l'Âge de Glace",
+    "habitat": "Haut-Arctique canadien et Groenland",
+    "lifespan": "20 ans",
+    "speed": "40 km/h",
+    "superpower": "Laine Qiviut 8 fois plus chaude que la laine de mouton",
+    "color_primary": "#451A03",
+    "color_secondary": "#E2E8F0",
+    "image_file": "images/muskox.png",
+    "story": "Je suis le bœuf musqué, vénérable survivant qui côtoyait les mammouths à l'Âge de Glace. Ma toison intérieure, appelée le Qiviut, est huit fois plus chaude que la laine de mouton la plus fine. Quand les loups attaquent, nous formons un cercle de cornes infranchissable pour protéger les petits.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le bœuf musqué, l'ancêtre vivant de l'Âge de Glace."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma laine intérieure est huit fois plus chaude que le cachemire."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous formons une forteresse circulaire face aux tempêtes."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos cornes massives protègent nos veaux avec ferveur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La mémoire des millénaires résonne sous mes pas."
+      }
+    ]
+  },
+  {
+    "id": "reindeer",
+    "name": "Le Renne / Caribou",
+    "latin": "Rangifer tarandus",
+    "category": "Arctique & Glaces",
+    "emoji": "🦌",
+    "title": "Le Coureur des Toundras",
+    "habitat": "Toundras et forêts boréales circumpolaires",
+    "lifespan": "15 ans",
+    "speed": "80 km/h",
+    "superpower": "Vision dans l'ultraviolet et sabots s'adaptant à l'hiver",
+    "color_primary": "#A16207",
+    "color_secondary": "#E2E8F0",
+    "image_file": "images/reindeer.png",
+    "story": "Je suis le renne, le compagnon légendaire des aurores boréales. Mes yeux changent de couleur en hiver pour voir la lumière ultraviolette dans l'obscurité polaire ! Mâles et femelles portent tous deux de magnifiques bois pour creuser la neige et trouver du lichen frais.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le renne, le guide lumineux des aurores polaires."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes yeux voient les ultraviolets dans la longue nuit d'hiver !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nos sabots s'élargissent pour marcher sur la poudreuse."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nous parcourons 5000 kilomètres chaque année en migration."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La magie du Nord étincelle dans notre sillage."
+      }
+    ]
+  },
+  {
+    "id": "snowy_owl",
+    "name": "Le Harfang des Neiges",
+    "latin": "Bubo scandiacus",
+    "category": "Arctique & Glaces",
+    "emoji": "🦉",
+    "title": "L'Esprit Blanc du Nord",
+    "habitat": "Toundra ouverte arctique",
+    "lifespan": "15 ans",
+    "speed": "80 km/h",
+    "superpower": "Chasseur diurne et nocturne aux plumes denses jusqu'aux serres",
+    "color_primary": "#F8FAFC",
+    "color_secondary": "#F59E0B",
+    "image_file": "images/snowy_owl.png",
+    "story": "Je suis le harfang des neiges, l'oiseau d'or et d'albâtre de l'Arctique. Mes serres sont entièrement recouvertes de plumes épaisses pour me protéger du gel. Mes grands yeux dorés perçoivent le moindre mouvement d'un lemming sous cinquante centimètres de neige durcie.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le harfang des neiges, l'ange blanc du ciel polaire."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes plumes descendent jusqu'à mes serres pour m'isoler du givre."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes yeux d'or captent le soleil de minuit sans ciller."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon vol silencieux survole les crêtes glacées avec majesté."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La pureté immaculée des glaces brille dans mon regard."
+      }
+    ]
+  },
+  {
+    "id": "harp_seal",
+    "name": "Le Phoque du Groenland",
+    "latin": "Pagophilus groenlandicus",
+    "category": "Arctique & Glaces",
+    "emoji": "🦭",
+    "title": "Le Bébé des Glaces",
+    "habitat": "Banquises dérivantes de l'Atlantique Nord et Arctique",
+    "lifespan": "30 ans",
+    "speed": "30 km/h (dans l'eau)",
+    "superpower": "Nageurs d'élite capables de plonger à 400 mètres",
+    "color_primary": "#CBD5E1",
+    "color_secondary": "#0284C7",
+    "image_file": "images/harp_seal.png",
+    "story": "Je suis le phoque du Groenland, né sur la banquise avec une douce fourrure blanche de blanchon. Sous l'eau, je me transforme en fusée hydrodynamique, plongeant jusqu'à quatre cents mètres de profondeur pour savourer capelans et crustacés.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le phoque du Groenland, le doux regard des mers glacées."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes bébés blanchons grandissent sous l'amour de leur mère."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je plonge à 400 mètres sous les blocs de banquise dérivante."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mon corps profilé glisse sans effort dans l'onde boréale."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La tendresse triomphe de la glace la plus froide."
+      }
+    ]
+  },
+  {
+    "id": "leopard_seal",
+    "name": "Le Léopard de Mer",
+    "latin": "Hydrurga leptonyx",
+    "category": "Arctique & Glaces",
+    "emoji": "🦭",
+    "title": "Le Prédateur Austral",
+    "habitat": "Eaux côtières et banquises de l'Antarctique",
+    "lifespan": "25 ans",
+    "speed": "40 km/h",
+    "superpower": "Mâchoire reptilienne et vitesse prodigieuse sous l'eau",
+    "color_primary": "#334155",
+    "color_secondary": "#38BDF8",
+    "image_file": "images/leopard_seal.png",
+    "story": "Je suis le léopard de mer, seigneur incontesté des eaux antarctiques. Mon corps serpentiforme de quatre mètres et mes mâchoires puissantes me permettent de régner sous les glaces du pôle Sud. Rapide et curieux, je patrouille les contours des icebergs bleus.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le léopard de mer, le chasseur agile de l'Antarctique."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon corps profilé de 4 mètres fend les courants austraux."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma curiosité me pousse à explorer les failles des icebergs."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je chante des mélodies subaquatiques qui résonnent sous la glace."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La puissance du Grand Sud pulse en moi."
+      }
+    ]
+  },
+  {
+    "id": "kangaroo",
+    "name": "Le Kangourou Roux",
+    "latin": "Osphranter rufus",
+    "category": "Australie & Îles",
+    "emoji": "🦘",
+    "title": "Le Boxeur du Bush",
+    "habitat": "Outback et plaines arides d'Australie",
+    "lifespan": "20 ans",
+    "speed": "70 km/h",
+    "superpower": "Bonds de 9 mètres et tendons élastiques stockant l'énergie",
+    "color_primary": "#EA580C",
+    "color_secondary": "#78350F",
+    "image_file": "images/kangaroo.png",
+    "story": "Je suis le kangourou roux, l'emblème bondissant de l'Outback australien ! Grâce à mes tendons élastiques qui fonctionnent comme des ressorts géants, plus je saute vite, moins je dépense d'énergie ! Mes bonds atteignent neuf mètres de long et ma poche protège mon bébé joyeusement.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le kangourou roux, le champion de saut de l'Outback !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes tendons géants recyclent l'énergie de chaque bond de 9 mètres."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon bébé joey grandit bien au chaud dans ma poche maternelle."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je traverse la terre rouge d'Australie à 70 km/h."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le soleil couchant embrase notre liberté infinie."
+      }
+    ]
+  },
+  {
+    "id": "koala",
+    "name": "Le Koala",
+    "latin": "Phascolarctos cinereus",
+    "category": "Australie & Îles",
+    "emoji": "🐨",
+    "title": "L'Amoureux d'Eucalyptus",
+    "habitat": "Forêts d'eucalyptus de l'Est australien",
+    "lifespan": "15 ans",
+    "speed": "10 km/h",
+    "superpower": "Détoxifie les feuilles d'eucalyptus et dort 20 heures par jour",
+    "color_primary": "#64748B",
+    "color_secondary": "#15803D",
+    "image_file": "images/koala.png",
+    "story": "Moi, le koala, je suis la peluche vivante des arbres d'Australie ! Mon système digestif spécialisé détoxifie les feuilles d'eucalyptus toxiques pour tous les autres animaux. Je dors vingt heures par jour blotti contre les branches pour économiser mon énergie avec sérénité.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le koala, je suis le doux dormeur des grands eucalyptus !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon organisme détoxifie des feuilles toxiques pour les autres."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je passe 20 heures par jour à faire de doux rêves perchés."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes empreintes digitales sont presque identiques à celles des humains !"
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La douceur et la paix sont mon mode de vie."
+      }
+    ]
+  },
+  {
+    "id": "platypus",
+    "name": "L'Ornithorynque",
+    "latin": "Ornithorhynchus anatinus",
+    "category": "Australie & Îles",
+    "emoji": "🦆",
+    "title": "L'Énigme de la Nature",
+    "habitat": "Rivières et ruisseaux de l'Est de l'Australie",
+    "lifespan": "17 ans",
+    "speed": "10 km/h (dans l'eau)",
+    "superpower": "Mammifère pondant des œufs avec bec de canard et électroréception",
+    "color_primary": "#78350F",
+    "color_secondary": "#0284C7",
+    "image_file": "images/platypus.png",
+    "story": "Je suis l'ornithorynque, la créature la plus extraordinaire de l'évolution ! J'ai un bec de canard, une queue de castor, des pattes palmées, je ponds des œufs mais j'allaite mes petits ! Mon bec détecte les impulsions électriques des écrevisses dans le noir complet.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'ornithorynque, le chef-d'œuvre le plus insolite de la Terre !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "J'ai un bec de canard, une queue de castor et je ponds des œufs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon bec capte les signaux électriques des proies sous l'eau."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je nage dans les cours d'eau secrets de Tasmanie avec bonheur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La nature ose toutes les folies créatives !"
+      }
+    ]
+  },
+  {
+    "id": "tasmanian_devil",
+    "name": "Le Diable de Tasmanie",
+    "latin": "Sarcophilus harrisii",
+    "category": "Australie & Îles",
+    "emoji": "🦡",
+    "title": "Le Tempérament de Feu",
+    "habitat": "Forêts côtières et clairières de Tasmanie",
+    "lifespan": "7 ans",
+    "speed": "25 km/h",
+    "superpower": "La morsure la plus puissante par unité de masse corporelle",
+    "color_primary": "#0F172A",
+    "color_secondary": "#EF4444",
+    "image_file": "images/tasmanian_devil.png",
+    "story": "Moi, le diable de Tasmanie, je suis le plus grand marsupial carnivore au monde ! Malgré ma petite taille, ma mâchoire a une force de morsure relative supérieure à celle d'un lion. Quand je crie la nuit, mes oreilles rougissent et mon hurlement réveille la forêt sauvage.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le diable de Tasmanie, j'ai une énergie volcanique !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma morsure est la plus puissante au monde proportionnellement."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes oreilles s'empourprent quand je défends mon festin."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je nettoie la forêt tasmanienne avec une ardeur exemplaire."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Un cœur battant et féroce au service de la nature."
+      }
+    ]
+  },
+  {
+    "id": "wombat",
+    "name": "Le Wombat",
+    "latin": "Vombatidae",
+    "category": "Australie & Îles",
+    "emoji": "🐻",
+    "title": "Le Terrassier Infatigable",
+    "habitat": "Montagnes et maquis du Sud-Est australien",
+    "lifespan": "15 ans",
+    "speed": "40 km/h",
+    "superpower": "Crotte cubique unique au monde et bouclier fessier cartilagineux",
+    "color_primary": "#78350F",
+    "color_secondary": "#B45309",
+    "image_file": "images/wombat.png",
+    "story": "Je suis le wombat, le petit bulldozer trapu d'Australie ! Mon dos est blindé d'une plaque de cartilage ultra-résistante pour bloquer l'entrée de mon terrier. Et détail amusant : mes excréments sont parfaitement cubiques pour ne pas rouler sur les rochers !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le wombat, le petit bulldozer robuste des collines !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon dos est blindé de cartilage pour boucher mon terrier."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes crottes sont de parfaits petits cubes géométriques !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes terriers ont sauvé de nombreux animaux lors des feux de brousse."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La solidarité souterraine est ma spécialité."
+      }
+    ]
+  },
+  {
+    "id": "emu",
+    "name": "L'Émeu d'Australie",
+    "latin": "Dromaius novaehollandiae",
+    "category": "Australie & Îles",
+    "emoji": "🦤",
+    "title": "Le Coureur Inarrêtable",
+    "habitat": "Savanes et plaines ouvertes d'Australie",
+    "lifespan": "20 ans",
+    "speed": "50 km/h",
+    "superpower": "Bons de 3 mètres de foulée et papa dévoué couvant les œufs verts",
+    "color_primary": "#57534E",
+    "color_secondary": "#15803D",
+    "image_file": "images/emu.png",
+    "story": "Je suis l'émeu d'Australie, le deuxième plus grand oiseau vivant sur Terre après l'autruche ! Bien que je ne puisse pas voler, mes longues pattes puissantes me propulsent avec des enjambées de trois mètres. C'est le papa émeu qui couve patiemment les magnifiques œufs vert émeraude.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis l'émeu d'Australie, le géant sprinter des grands espaces."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes enjambées de trois mètres avalent les plaines de l'Outback."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Le père couve avec dévouement les somptueux œufs vert émeraude."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Curieux et audacieux, j'explore chaque recoin du continent."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La liberté de courir sans fin fait battre mon cœur."
+      }
+    ]
+  },
+  {
+    "id": "echidna",
+    "name": "L'Échidné à Nez Court",
+    "latin": "Tachyglossus aculeatus",
+    "category": "Australie & Îles",
+    "emoji": "🦔",
+    "title": "L'Hérisson d'Océanie",
+    "habitat": "Tous les habitats d'Australie et de Nouvelle-Guinée",
+    "lifespan": "40 ans",
+    "speed": "5 km/h",
+    "superpower": "Piqueur ponte d'œufs avec museau électrosensible à fourmis",
+    "color_primary": "#78350F",
+    "color_secondary": "#F59E0B",
+    "image_file": "images/echidna.png",
+    "story": "Moi, l'échidné, je suis l'un des deux seuls mammifères au monde qui pondent des œufs avec l'ornithorynque ! Mon corps est recouvert d'épines acérées et mon long museau possède des capteurs électriques pour débusquer les fourmis et termites dont je raffole.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, l'échidné, je suis un trésor biologique vivant d'Australie !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Je ponds un œuf unique que je garde dans ma poche ventrale."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma langue gluante de 18 cm attrape des milliers de fourmis."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je m'enfouis dans le sol en quelques secondes pour me protéger."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La discrétion et la longévité sont mes secrets."
+      }
+    ]
+  },
+  {
+    "id": "dingo",
+    "name": "Le Dingo",
+    "latin": "Canis dingo",
+    "category": "Australie & Îles",
+    "emoji": "🐕",
+    "title": "Le Chien Sauvage Légendaire",
+    "habitat": "Déserts et forêts d'Australie",
+    "lifespan": "15 ans",
+    "speed": "65 km/h",
+    "superpower": "Articulations ultra-souples lui permettant d'escalader et ouvrir des portes",
+    "color_primary": "#D97706",
+    "color_secondary": "#B45309",
+    "image_file": "images/dingo.png",
+    "story": "Je suis le dingo, le chien sauvage au pelage doré de l'Australie. Contrairement aux chiens domestiques, je ne sais pas aboyer : je communique par de longs hurlements harmonieux comme les loups. Je suis le prédateur régulateur suprême qui maintient l'équilibre de l'écosystème.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le dingo, le noble gardien doré du désert australien."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes hurlements mélodieux résonnent sous le ciel constellé."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes poignets flexibles me permettent de grimper aux arbres."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je régule la faune sauvage pour protéger la terre ancestrale."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'indépendance et la loyauté guident mes pas."
+      }
+    ]
+  },
+  {
+    "id": "camel",
+    "name": "Le Chameau de Bactriane",
+    "latin": "Camelus bactrianus",
+    "category": "Déserts & Aride",
+    "emoji": "🐫",
+    "title": "Le Navire des Sables",
+    "habitat": "Déserts froids de Gobi et d'Asie centrale",
+    "lifespan": "40 ans",
+    "speed": "65 km/h",
+    "superpower": "Deux bosses stockant 36 kg de graisse et buvant 100 litres en 10 min",
+    "color_primary": "#B45309",
+    "color_secondary": "#78350F",
+    "image_file": "images/camel.png",
+    "story": "Je suis le chameau de Bactriane, le légendaire voyageur de la Route de la Soie. Mes deux bosses ne contiennent pas d'eau, mais de la graisse riche en énergie ! Je supporte des températures allant de moins quarante degrés en hiver à plus de quarante degrés en été dans le désert de Gobi.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le chameau de Bactriane, le géant de la Route de la Soie."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes deux bosses stockent l'énergie pour des mois de traversée."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je bois cent litres d'eau en seulement dix minutes chrono !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes doubles rangées de cils bloquent les tempêtes de poussière."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'endurance héroïque triomphe de tous les déserts."
+      }
+    ]
+  },
+  {
+    "id": "dromedary",
+    "name": "Le Dromadaire",
+    "latin": "Camelus dromedarius",
+    "category": "Déserts & Aride",
+    "emoji": "🐪",
+    "title": "L'Endurant du Sahara",
+    "habitat": "Désert du Sahara et péninsule Arabique",
+    "lifespan": "40 ans",
+    "speed": "65 km/h",
+    "superpower": "Globules rouges ovales résistant à la déshydratation extrême",
+    "color_primary": "#D97706",
+    "color_secondary": "#FDE68A",
+    "image_file": "images/dromedary.png",
+    "story": "Moi, le dromadaire, j'ai une unique bosse et un cœur vaillant fait pour les dunes brûlantes du Sahara. Mes pieds larges et coussinés ne s'enfoncent jamais dans le sable fin. Je peux voyager des semaines entières sans boire une seule goutte d'eau sous un soleil de plomb.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le dromadaire, je suis le prince endurant du grand Sahara !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes larges coussinets flottent sur les dunes de sable doré."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes narines se ferment hermétiquement contre le vent de sirocco."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Fidèle compagnon des nomades, je guide les caravanes avec calme."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La patience du désert fleurit dans mon âme."
+      }
+    ]
+  },
+  {
+    "id": "fennec",
+    "name": "Le Fennec",
+    "latin": "Vulpes zerda",
+    "category": "Déserts & Aride",
+    "emoji": "🦊",
+    "title": "Le Renard des Dunes",
+    "habitat": "Dunes de sable du désert du Sahara",
+    "lifespan": "10 ans",
+    "speed": "40 km/h",
+    "superpower": "Oreilles géantes de 15 cm radiateurs thermiques et ouïe suprême",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#FEF3C7",
+    "image_file": "images/fennec.png",
+    "story": "Je suis le fennec, le plus petit renard du monde et le plus mignon des déserts ! Mes oreilles géantes de quinze centimètres me servent de radiateurs pour évacuer la chaleur et entendent les insectes creuser sous le sable. Mes pattes poilues m'isolent du sable brûlant.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le fennec, le petit prince aux grandes oreilles du Sahara !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes oreilles géantes dissipent la chaleur et entendent sous les dunes."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes pattes garnies de poils me permettent de courir sur le sable brûlant."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "La nuit étoilée m'accueille pour mes explorations joyeuses."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Une merveille de tendresse au creux du désert."
+      }
+    ]
+  },
+  {
+    "id": "meerkat",
+    "name": "Le Suricate",
+    "latin": "Suricata suricatta",
+    "category": "Déserts & Aride",
+    "emoji": "🦦",
+    "title": "La Sentinelle du Désert",
+    "habitat": "Désert du Kalahari et plaines arides d'Afrique australe",
+    "lifespan": "12 ans",
+    "speed": "32 km/h",
+    "superpower": "Sentinelles rotatives et immunité contre le venin de scorpion",
+    "color_primary": "#A16207",
+    "color_secondary": "#0F172A",
+    "image_file": "images/meerkat.png",
+    "story": "Nous sommes les suricates, les sentinelles héroïques du désert du Kalahari ! Debout sur nos pattes arrière, nous surveillons le ciel pour protéger tout le groupe contre les aigles. Nous sommes totalement immunisés contre le venin des scorpions les plus dangereux !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Nous sommes les suricates, les sentinelles héroïques du Kalahari !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Debout sur nos gardes, nous veillons sur toute notre famille."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Nous sommes immunisés contre le venin des scorpions du désert."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Nos cercles noirs autour des yeux agissent comme des lunettes de soleil."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La vigilance et l'amour du clan font notre force."
+      }
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "Le Scorpion Empereur",
+    "latin": "Pandinus imperator",
+    "category": "Déserts & Aride",
+    "emoji": "🦂",
+    "title": "Le Chevalier Noir",
+    "habitat": "Savanes et forêts arides d'Afrique de l'Ouest",
+    "lifespan": "8 ans",
+    "speed": "15 km/h",
+    "superpower": "Carapace fluorescente brillante en bleu-vert sous les UV",
+    "color_primary": "#0F172A",
+    "color_secondary": "#06B6D4",
+    "image_file": "images/scorpion.png",
+    "story": "Je suis le scorpion empereur, le chevalier cuirassé de la nuit. Fait incroyable : sous la lumière ultraviolette, ma carapace noire brille d'une fluorescence bleu-vert spectaculaire ! Mes puissantes pinces m'aident à capturer mes proies sans même avoir besoin de mon dard.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le scorpion empereur, le chevalier mystique de la nuit."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Sous les rayons ultraviolets, ma carapace brille d'un bleu fluo !"
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes pinces puissantes saisissent avec une force d'acier."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je veille discrètement sous les rochers chauffés par le soleil."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "L'énigme des terres chaudes s'illumine sous mes pas."
+      }
+    ]
+  },
+  {
+    "id": "horned_viper",
+    "name": "La Vipère à Cornes",
+    "latin": "Cerastes cerastes",
+    "category": "Déserts & Aride",
+    "emoji": "🐍",
+    "title": "Le Spectre des Dunes",
+    "habitat": "Déserts sableux d'Afrique du Nord et du Moyen-Orient",
+    "lifespan": "15 ans",
+    "speed": "20 km/h (déplacement latéral)",
+    "superpower": "Déplacement en zigzag latéral (sidewinding) sans toucher tout le sable chaud",
+    "color_primary": "#CA8A04",
+    "color_secondary": "#78350F",
+    "image_file": "images/horned_viper.png",
+    "story": "Moi, la vipère à cornes, je possède deux petites cornes mystérieuses au-dessus de mes yeux. En me déplaçant en pas de côté latéral, je ne pose que deux points de mon corps sur le sable brûlant à la fois ! En quelques secondes, je m'enterre sous le sable ne laissant dépasser que mes yeux.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, la vipère à cornes, je suis la reine du déplacement latéral !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon pas en zigzag m'évite de brûler sur le sable de midi."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je m'enfouis sous les grains dorés en un battement de cil."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Mes cornes écailleuses protègent mes yeux des tempêtes de vent."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Le souffle du désert garde mes secrets intimes."
+      }
+    ]
+  },
+  {
+    "id": "gila_monster",
+    "name": "Le Monstre de Gila",
+    "latin": "Heloderma suspectum",
+    "category": "Déserts & Aride",
+    "emoji": "🦎",
+    "title": "Le Lézard Perlé",
+    "habitat": "Désert de Sonora et Sud-Ouest américain",
+    "lifespan": "20 ans",
+    "speed": "5 km/h",
+    "superpower": "Peau de perles osseuses et salive ayant inspiré des médicaments vitaux",
+    "color_primary": "#EA580C",
+    "color_secondary": "#1E293B",
+    "image_file": "images/gila_monster.png",
+    "story": "Je suis le monstre de Gila, le plus impressionnant lézard d'Amérique du Nord. Ma peau noire et rose vif est recouverte de milliers de petites perles osseuses appelées ostéodermes. Ma salive a permis aux scientifiques d'inventer des médicaments révolutionnaires pour soigner le diabète !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le monstre de Gila, le lézard perlé du désert de Sonora."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma parure rose et noire est faite de vraies perles osseuses."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma salive unique a sauvé des millions de vies humaines !"
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je stocke l'eau et les graisses dans ma queue dodue."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La science honore la sagesse du désert chaud."
+      }
+    ]
+  },
+  {
+    "id": "leopard_gecko",
+    "name": "Le Gecko Léopard",
+    "latin": "Eublepharis macularius",
+    "category": "Déserts & Aride",
+    "emoji": "🦎",
+    "title": "L'Acrobate Nocturne",
+    "habitat": "Terrains rocailleux d'Afghanistan, Pakistan et Inde",
+    "lifespan": "15 ans",
+    "speed": "10 km/h",
+    "superpower": "Paupières mobiles et queue réserve d'énergie",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#1E293B",
+    "image_file": "images/leopard_gecko.png",
+    "story": "Je suis le gecko léopard, le petit lézard souriant des nuits d'Orient ! Contrairement aux autres geckos, je possède de vraies paupières pour cligner des yeux avec tendresse. Ma jolie queue tachetée stocke mes réserves d'eau et de graisse pour les saisons sèches.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le gecko léopard, le sourire chaleureux des nuits d'Orient !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes vraies paupières me permettent de vous faire des clins d'œil."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma peau tachetée comme un léopard me camoufle dans les roches."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Ma queue garde mes précieuses réserves de douceur."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La nuit étoilée est mon havre de paix enchanté."
+      }
+    ]
+  },
+  {
+    "id": "dog",
+    "name": "Le Chien Golden Retriever",
+    "latin": "Canis lupus familiaris",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐕",
+    "title": "Le Cœur Loyal",
+    "habitat": "Foyers chaleureux du monde entier",
+    "lifespan": "12 à 15 ans",
+    "speed": "45 km/h",
+    "superpower": "Amour inconditionnel et odorat 100 000 fois plus sensible",
+    "color_primary": "#F59E0B",
+    "color_secondary": "#D97706",
+    "image_file": "images/dog.png",
+    "story": "Moi, le chien, je suis le meilleur ami de l'être humain depuis plus de trente mille ans ! Mon amour pour vous est pur, infini et inconditionnel. Je ressens vos joies et vos peines avant même que vous ne disiez un mot. Remuer la queue quand vous rentrez est mon plus grand bonheur !",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le chien, je suis votre meilleur ami depuis la nuit des temps !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon cœur bat à l'unisson avec le vôtre à chaque instant."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je ressens vos émotions et console vos peines avec tendresse."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Courir dans l'herbe et jouer avec vous est le paradis."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "La fidélité éternelle est ma plus belle promesse."
+      }
+    ]
+  },
+  {
+    "id": "cat",
+    "name": "Le Chat Domestique",
+    "latin": "Felis catus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐱",
+    "title": "Le Mystérieux Compagnon",
+    "habitat": "Foyers douillets et jardins ensoleillés",
+    "lifespan": "15 à 20 ans",
+    "speed": "48 km/h",
+    "superpower": "Ronronnement thérapeutique à 25-50 Hz régénérant les os",
+    "color_primary": "#8B5CF6",
+    "color_secondary": "#0F172A",
+    "image_file": "images/cat.png",
+    "story": "Je suis le chat, félin mystique vénéré depuis l'Égypte antique. Mon ronronnement vibrant entre vingt-cinq et cinquante hertz possède de réelles vertus thérapeutiques qui apaisent votre esprit et accélèrent la guérison des os ! Je me glisse sur vos genoux avec élégance et affection.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le chat, le félin doux et mystérieux de votre foyer."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon ronronnement magique apaise votre cœur et guérit le stress."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes moustaches sensibles mesurent l'espace au millimètre près."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Vénéré par les pharaons, je garde l'âme de la maison."
+      },
+      {
+        "start": 19.5,
+        "end": 25.0,
+        "text": "Un câlin feutré pour illuminer votre journée."
+      }
+    ]
+  },
+  {
+    "id": "horse",
+    "name": "Le Cheval Pur-Sang",
+    "latin": "Equus caballus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐎",
+    "title": "Le Vent Libre",
+    "habitat": "Prairies verdoyantes et grands pâturages",
+    "lifespan": "25 à 30 ans",
+    "speed": "70 km/h",
+    "superpower": "Yeux parmi les plus grands des mammifères et mémoire émotionnelle",
+    "color_primary": "#78350F",
+    "color_secondary": "#D97706",
+    "image_file": "images/horse.png",
+    "story": "Je suis le cheval, le vent noble de la liberté galopante. Depuis des millénaires, nous portons les rêves des hommes à travers les continents. Mes oreilles pivotent pour écouter le souffle de mon cavalier. Galoper crinière au vent au soleil levant est la plus pure communion avec la nature.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis le cheval, l'esprit noble et libre des grands galops !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Nous avons porté l'histoire humaine à travers les horizons."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon regard profond comprend votre cœur sans aucune parole."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Le vent dans ma crinière chante l'hymne de la liberté pure."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La beauté du monde résonne au rythme de mes sabots."
+      }
+    ]
+  },
+  {
+    "id": "sheep",
+    "name": "Le Mouton Mérinos",
+    "latin": "Ovis aries",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐑",
+    "title": "La Douceur des Prés",
+    "habitat": "Pâturages d'alpage et prairies verdoyantes",
+    "lifespan": "12 ans",
+    "speed": "25 km/h",
+    "superpower": "Reconnaissance de plus de 50 visages de congénères et humains pendant 2 ans",
+    "color_primary": "#F8FAFC",
+    "color_secondary": "#15803D",
+    "image_file": "images/sheep.png",
+    "story": "Moi, le mouton, je suis la douceur incarnée des collines d'alpage. Ma laine ultra-douce régule naturellement la température. Nous avons une mémoire visuelle prodigieuse qui nous permet de reconnaître plus de cinquante visages pendant plusieurs années. La paix du troupeau nous remplit de joie.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le mouton, je suis le nuage blanc des prairies en fleur."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Ma laine mérinos est la plus douce et protectrice du monde."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Je reconnais mes amis et les bergers avec une fidélité touchante."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Ensemble sur l'alpage, nous profitons de l'herbe fraîche."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La paix et l'harmonie pastorale vous embrassent."
+      }
+    ]
+  },
+  {
+    "id": "goat",
+    "name": "La Chèvre Alpine",
+    "latin": "Capra hircus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐐",
+    "title": "L'Escaladeuse Intrépide",
+    "habitat": "Falaises escarpées et fermes de montagne",
+    "lifespan": "15 ans",
+    "speed": "35 km/h",
+    "superpower": "Pupilles rectangulaires et équilibre défiant la gravité sur parois verticales",
+    "color_primary": "#A16207",
+    "color_secondary": "#1E293B",
+    "image_file": "images/goat.png",
+    "story": "Je suis la chèvre alpine, l'acrobate intrépide des sommets rocheux ! Mes sabots flexibles aux coussinets antidérapants me permettent de grimper sur des parois de barrages presque verticaux pour lécher les sels minéraux. Ma curiosité joyeuse et mon intelligence égayent la montagne.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la chèvre alpine, l'alpiniste espiègle des falaises rocheuses !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mes sabots magiques agrippent les parois verticales sans jamais glisser."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes pupilles rectangulaires m'offrent un champ de vision panoramique."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "J'adore explorer et sauter de rocher en rocher avec malice."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La liberté des cimes m'appelle chaque matin."
+      }
+    ]
+  },
+  {
+    "id": "cow",
+    "name": "La Vache Montbéliarde",
+    "latin": "Bos taurus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐄",
+    "title": "La Gardienne des Pâturages",
+    "habitat": "Prairies herbeuses et vallées de montagne",
+    "lifespan": "20 ans",
+    "speed": "35 km/h",
+    "superpower": "4 estomacs, meilleures amies dans le troupeau et vue à 330 degrés",
+    "color_primary": "#B45309",
+    "color_secondary": "#F8FAFC",
+    "image_file": "images/cow.png",
+    "story": "Je suis la vache, la force sereine et généreuse de nos belles campagnes. Nous avons de véritables meilleures amies dans le troupeau et nous devenons tristes si nous sommes séparées ! Mes quatre estomacs transforment l'herbe des prés en lait délicieux pour régaler petits et grands.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Je suis la vache, l'âme paisible et bienveillante des prairies fleuries."
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "J'ai des meilleures amies fidèles à mes côtés dans le troupeau."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mes quatre estomacs savourent l'herbe tendre et le trèfle doux."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Le son de ma cloche tinte doucement dans la brise d'été."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La sérénité des champs est un cadeau pour tous."
+      }
+    ]
+  },
+  {
+    "id": "rooster",
+    "name": "Le Coq Gaulois",
+    "latin": "Gallus gallus domesticus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐓",
+    "title": "Le Réveilleur de l'Aube",
+    "habitat": "Basses-cours et campagnes ensoleillées",
+    "lifespan": "8 ans",
+    "speed": "15 km/h",
+    "superpower": "Horloge circadienne interne précise et chant annonçant la lumière",
+    "color_primary": "#EF4444",
+    "color_secondary": "#059669",
+    "image_file": "images/rooster.png",
+    "story": "Cocorico ! Je suis le coq, héraut flamboyant du lever du jour ! Mon horloge biologique interne me permet de chanter avant même que le soleil n'apparaisse pour réveiller la nature. Avec ma crête rouge vif et mes plumes aux reflets émeraude, je veille fièrement sur ma basse-cour.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Cocorico ! Je suis le coq, l'éclaireur courageux du matin nouveau !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Mon chant triomphal salue les premiers rayons de l'aurore."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Ma crête écarlate et mes ergots défendent la basse-cour."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Symbole de fierté et de lumière, j'accueille chaque nouveau jour."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "Debout, le monde vous attend avec enthousiasme !"
+      }
+    ]
+  },
+  {
+    "id": "rabbit",
+    "name": "Le Lapin Nain",
+    "latin": "Oryctolagus cuniculus",
+    "category": "Compagnons & Ferme",
+    "emoji": "🐇",
+    "title": "Le Petit Bondisseur",
+    "habitat": "Clairières herbeuses et terriers familiaux",
+    "lifespan": "10 ans",
+    "speed": "40 km/h",
+    "superpower": "Champ de vision à 360° et 'binky' sauts de pure joie",
+    "color_primary": "#CBD5E1",
+    "color_secondary": "#F472B6",
+    "image_file": "images/rabbit.png",
+    "story": "Moi, le lapin, je suis une boule de douceur bondissante ! Quand je suis extrêmement heureux, je fais des 'binkies' : de petits sauts acrobatiques avec des vrilles dans les airs ! Mes grandes oreilles douces bougent sans cesse pour écouter le bruissement des pissenlits.",
+    "captions": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": "Moi, le petit lapin, je suis un concentré de joie et de douceur !"
+      },
+      {
+        "start": 4.5,
+        "end": 9.5,
+        "text": "Quand je suis heureux, je fais des sauts périlleux dans les airs."
+      },
+      {
+        "start": 9.5,
+        "end": 14.5,
+        "text": "Mon petit nez frétillant sent les pissenlits et carottes fraîches."
+      },
+      {
+        "start": 14.5,
+        "end": 19.5,
+        "text": "Je me blottis en boule douillette pour de tendres caresses."
+      },
+      {
+        "start": 19.5,
+        "end": 24.5,
+        "text": "La douceur pure émerveille notre quotidien."
+      }
+    ]
+  }
+]
